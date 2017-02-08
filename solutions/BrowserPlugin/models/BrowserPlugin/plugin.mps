@@ -24,15 +24,38 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
+    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
+        <child id="1207145201301" name="reference" index="ftvYc" />
+      </concept>
+      <concept id="394857668357342104" name="jetbrains.mps.lang.plugin.structure.EverywhereActionPlace" flags="ng" index="mfpdH" />
       <concept id="1207318242772" name="jetbrains.mps.lang.plugin.structure.KeyMapKeystroke" flags="ng" index="pLAjd">
         <property id="1207318242773" name="modifiers" index="pLAjc" />
         <property id="1207318242774" name="keycode" index="pLAjf" />
       </concept>
+      <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
+        <property id="1211298967294" name="outsideCommandExecution" index="72QZ$" />
+        <property id="1215865999894" name="mnemonic" index="ngHcd" />
+        <property id="1205250923097" name="caption" index="2uzpH1" />
+        <child id="394857668356997869" name="places" index="med8o" />
+        <child id="1203083461638" name="executeFunction" index="tncku" />
+      </concept>
       <concept id="1203071677434" name="jetbrains.mps.lang.plugin.structure.ToolDeclaration" flags="ng" index="sEfby">
         <child id="1214307129846" name="getComponentBlock" index="2Um5zG" />
+      </concept>
+      <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
+      <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <child id="1204991552650" name="modifier" index="2f5YQi" />
+        <child id="1207145245948" name="contents" index="ftER_" />
+      </concept>
+      <concept id="1203088046679" name="jetbrains.mps.lang.plugin.structure.ActionInstance" flags="ng" index="tCFHf">
+        <reference id="1203088061055" name="action" index="tCJdB" />
+      </concept>
+      <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
+        <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
       <concept id="1213888653896" name="jetbrains.mps.lang.plugin.structure.InitBlock" flags="in" index="2xpIHi" />
       <concept id="1213888797251" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_Project" flags="nn" index="2xqhHp" />
@@ -1010,6 +1033,51 @@
           <property role="pLAjf" value="2" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="3SROZMUwZQE">
+    <property role="TrG5h" value="Browser" />
+    <property role="2uzpH1" value="Browser" />
+    <property role="72QZ$" value="true" />
+    <property role="ngHcd" value="B" />
+    <node concept="mfpdH" id="3SROZMUxq1_" role="med8o" />
+    <node concept="tnohg" id="3SROZMUwZQF" role="tncku">
+      <node concept="3clFbS" id="3SROZMUwZQG" role="2VODD2">
+        <node concept="3cpWs8" id="3SROZMUxmBA" role="3cqZAp">
+          <node concept="3cpWsn" id="3SROZMUxmB$" role="3cpWs9">
+            <property role="TrG5h" value="fxWebView" />
+            <node concept="3uibUv" id="3SROZMUxmEV" role="1tU5fm">
+              <ref role="3uigEE" node="5Jf4KAPM2YU" resolve="SwingFXWebView" />
+            </node>
+            <node concept="2ShNRf" id="3SROZMUxmGm" role="33vP2m">
+              <node concept="1pGfFk" id="3SROZMUxmGj" role="2ShVmc">
+                <ref role="37wK5l" node="5Jf4KAPMkr2" resolve="SwingFXWebView" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3SROZMUxoQf" role="3cqZAp">
+          <node concept="2OqwBi" id="3SROZMUxpkz" role="3clFbG">
+            <node concept="37vLTw" id="3SROZMUxoQd" role="2Oq$k0">
+              <ref role="3cqZAo" node="3SROZMUxmB$" resolve="fxWebView" />
+            </node>
+            <node concept="liA8E" id="3SROZMUxq0u" role="2OqNvi">
+              <ref role="37wK5l" node="5Jf4KAPMkrH" resolve="run" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="tC5Ba" id="3SROZMUxHmu">
+    <property role="TrG5h" value="Browser" />
+    <node concept="ftmFs" id="3SROZMUxHmw" role="ftER_">
+      <node concept="tCFHf" id="3SROZMUxHmz" role="ftvYc">
+        <ref role="tCJdB" node="3SROZMUwZQE" resolve="Browser" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="3SROZMUxHm_" role="2f5YQi">
+      <ref role="tU$_T" to="tprs:hyf4Jd1" resolve="SolutionActions" />
     </node>
   </node>
 </model>

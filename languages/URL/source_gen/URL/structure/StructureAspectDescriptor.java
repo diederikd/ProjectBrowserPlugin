@@ -6,23 +6,28 @@ import jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import java.util.HashMap;
-import java.util.Collection;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
+import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.concept.SConceptAdapterById;
 import jetbrains.mps.smodel.adapter.structure.concept.SInterfaceConceptAdapterById;
+import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(0);
+  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(1);
+  /*package*/ final ConceptDescriptor myConceptURL = createDescriptorForURL();
 
   public StructureAspectDescriptor() {
+    myIndexMap.put(myConceptURL.getId(), 0);
   }
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList();
+    return Arrays.asList(myConceptURL);
   }
 
   @Override
@@ -33,6 +38,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
       return null;
     }
     switch (((int) index)) {
+      case 0:
+        return myConceptURL;
       default:
         throw new IllegalStateException();
     }
@@ -48,4 +55,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return (res == null ? -1 : res);
   }
 
+  private static ConceptDescriptor createDescriptorForURL() {
+    return new ConceptDescriptorBuilder("URL.structure.URL", MetaIdFactory.conceptId(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).sourceNode(new SNodePointer("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)", "4483285036485027133")).create();
+  }
 }
