@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2" />
+<debug-info version="2">
+  <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)/6615527310055976890">
+    <file name="SwingFXWebView.java">
+      <unit id="6615527310055976890" at="7,0,9,0" name="BrowserPlugin.plugin.SwingFXWebView" />
+    </file>
+  </root>
+</debug-info>
 
