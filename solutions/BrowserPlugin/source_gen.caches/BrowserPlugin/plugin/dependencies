@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="BrowserPlugin.plugin.BrowserPlugin_ProjectPlugin" file="BrowserPlugin_ProjectPlugin.java">
+    <classNode dependClassName="BrowserPlugin.plugin.Browser_Tool" />
+    <classNode dependClassName="com.intellij.openapi.project.Project" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.ide.tools.BaseTool" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.plugins.projectplugins.BaseProjectPlugin" />
+  </dependency>
+  <dependency className="BrowserPlugin.plugin.Browser_Tool" file="Browser_Tool.java">
+    <classNode dependClassName="com.intellij.openapi.project.Project" />
+    <classNode dependClassName="com.intellij.openapi.wm.ToolWindowAnchor" />
+    <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="javax.swing.JComponent" />
+    <classNode dependClassName="javax.swing.JPanel" />
+    <classNode dependClassName="javax.swing.KeyStroke" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode extendsClassName="jetbrains.mps.plugins.tool.GeneratedTool" />
+  </dependency>
   <dependency className="BrowserPlugin.plugin.SwingFXWebView" file="SwingFXWebView.java">
     <classNode dependClassName="com.sun.javafx.application.PlatformImpl" />
     <classNode dependClassName="java.awt.BorderLayout" />
