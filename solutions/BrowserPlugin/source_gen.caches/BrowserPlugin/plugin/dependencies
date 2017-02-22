@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="BrowserPlugin.plugin.BrowserPlugin_ApplicationPlugin" file="BrowserPlugin_ApplicationPlugin.java">
-    <classNode dependClassName="BrowserPlugin.plugin.Browser_Action" />
-    <classNode dependClassName="BrowserPlugin.plugin.Browser_ActionGroup" />
+    <classNode dependClassName="BrowserPlugin.plugin.null_Action" />
     <classNode dependClassName="com.intellij.openapi.extensions.PluginId" />
-    <classNode dependClassName="jetbrains.mps.ide.actions.SolutionActions_ActionGroup" />
     <classNode extendsClassName="jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin" />
   </dependency>
   <dependency className="BrowserPlugin.plugin.BrowserPlugin_ProjectPlugin" file="BrowserPlugin_ProjectPlugin.java">
@@ -16,25 +14,12 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode extendsClassName="jetbrains.mps.plugins.projectplugins.BaseProjectPlugin" />
   </dependency>
-  <dependency className="BrowserPlugin.plugin.Browser_Action" file="Browser_Action.java">
-    <classNode dependClassName="BrowserPlugin.plugin.SwingFXWebView" />
-    <classNode dependClassName="com.intellij.openapi.actionSystem.AnActionEvent" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="javax.swing.Icon" />
-    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
-    <classNode extendsClassName="jetbrains.mps.workbench.action.BaseAction" />
-  </dependency>
-  <dependency className="BrowserPlugin.plugin.Browser_ActionGroup" file="Browser_ActionGroup.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="jetbrains.mps.plugins.actions.GeneratedActionGroup" />
-  </dependency>
   <dependency className="BrowserPlugin.plugin.Browser_Tool" file="Browser_Tool.java">
+    <classNode dependClassName="JavaFXBrowser.SwingFXWebView" />
     <classNode dependClassName="com.intellij.openapi.project.Project" />
     <classNode dependClassName="com.intellij.openapi.wm.ToolWindowAnchor" />
     <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.awt.Component" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="javax.swing.Icon" />
@@ -44,28 +29,17 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode extendsClassName="jetbrains.mps.plugins.tool.GeneratedTool" />
   </dependency>
-  <dependency className="BrowserPlugin.plugin.SwingFXWebView" file="SwingFXWebView.java">
-    <classNode dependClassName="com.sun.javafx.application.PlatformImpl" />
-    <classNode dependClassName="java.awt.BorderLayout" />
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.event.ActionEvent" />
-    <classNode dependClassName="java.awt.event.ActionListener" />
+  <dependency className="BrowserPlugin.plugin.null_Action" file="null_Action.java">
+    <classNode dependClassName="BrowserPlugin.plugin.Browser_Tool" />
+    <classNode dependClassName="com.intellij.openapi.actionSystem.AnActionEvent" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.Runnable" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javafx.application.Platform" />
-    <classNode dependClassName="javafx.collections.ObservableList" />
-    <classNode dependClassName="javafx.embed.swing.JFXPanel" />
-    <classNode dependClassName="javafx.scene.Group" />
-    <classNode dependClassName="javafx.scene.Node" />
-    <classNode dependClassName="javafx.scene.Scene" />
-    <classNode dependClassName="javafx.scene.web.WebEngine" />
-    <classNode dependClassName="javafx.scene.web.WebView" />
-    <classNode dependClassName="javafx.stage.Stage" />
-    <classNode dependClassName="javax.swing.JButton" />
-    <classNode dependClassName="javax.swing.JFrame" />
-    <classNode dependClassName="javax.swing.SwingUtilities" />
-    <classNode extendsClassName="javax.swing.JPanel" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="jetbrains.mps.plugins.projectplugins.ProjectPluginManager" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode extendsClassName="jetbrains.mps.workbench.action.BaseAction" />
   </dependency>
 </dependenciesRoot>
 

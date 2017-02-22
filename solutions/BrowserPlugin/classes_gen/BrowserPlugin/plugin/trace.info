@@ -3,110 +3,102 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)/4190535063041855328">
     <file name="Browser_Tool.java">
-      <node id="4190535063041855328" at="17,0,18,0" concept="7" trace="ICON" />
-      <node id="5063423476139030613" at="18,0,19,0" concept="2" trace="projectvar" />
-      <node id="4190535063041856034" at="19,0,20,0" concept="2" trace="jp" />
-      <node id="4190535063041855328" at="20,40,21,216" concept="9" />
-      <node id="4190535063041855328" at="23,37,24,24" concept="1" />
-      <node id="5460856468217196467" at="24,24,25,43" concept="1" />
-      <node id="5063423476138994830" at="25,43,26,58" concept="1" />
-      <node id="4190535063041932591" at="26,58,27,38" concept="1" />
-      <node id="4190535063041878142" at="29,36,30,32" concept="5" />
-      <node id="4190535063041855328" at="20,0,23,0" concept="0" trace="Browser_Tool#(Lcom/intellij/openapi/project/Project;)V" />
-      <node id="4190535063041855328" at="29,0,32,0" concept="3" trace="getComponent#()Ljavax/swing/JComponent;" />
-      <node id="4190535063041855328" at="23,0,29,0" concept="3" trace="init#(Lcom/intellij/openapi/project/Project;)V" />
-      <scope id="4190535063041855328" at="20,40,21,216" />
-      <scope id="4190535063041855330" at="29,36,30,32" />
-      <scope id="4190535063041855328" at="20,0,23,0">
+      <node id="4190535063041855328" at="19,0,20,0" concept="10" trace="ICON" />
+      <node id="5063423476139030613" at="20,0,21,0" concept="2" trace="projectvar" />
+      <node id="4190535063041856034" at="21,0,22,0" concept="2" trace="jp" />
+      <node id="6638639422340962742" at="22,0,23,0" concept="2" trace="fxWebView" />
+      <node id="4190535063041855328" at="23,40,24,216" concept="11" />
+      <node id="4190535063041855328" at="26,37,27,24" concept="1" />
+      <node id="5460856468217196467" at="27,24,28,43" concept="1" />
+      <node id="5063423476138994830" at="28,43,29,58" concept="1" />
+      <node id="2415210339117262306" at="29,58,30,51" concept="1" />
+      <node id="6638639422340964571" at="32,48,33,65" concept="1" />
+      <node id="184378917878819619" at="33,65,34,136" concept="1" />
+      <node id="6638639422340981264" at="34,136,35,43" concept="1" />
+      <node id="184378917878813606" at="35,43,36,0" concept="9" />
+      <node id="4190535063041932591" at="38,5,39,38" concept="1" />
+      <node id="4190535063041878142" at="41,36,42,32" concept="7" />
+      <node id="4190535063041855328" at="23,0,26,0" concept="0" trace="Browser_Tool#(Lcom/intellij/openapi/project/Project;)V" />
+      <node id="4190535063041855328" at="41,0,44,0" concept="5" trace="getComponent#()Ljavax/swing/JComponent;" />
+      <node id="6638639422340947785" at="31,70,37,7" concept="4" />
+      <node id="6638639422340932170" at="30,51,38,5" concept="3" />
+      <node id="4190535063041855328" at="26,0,41,0" concept="5" trace="init#(Lcom/intellij/openapi/project/Project;)V" />
+      <scope id="4190535063041855328" at="23,40,24,216" />
+      <scope id="4190535063041855330" at="41,36,42,32" />
+      <scope id="4190535063041855328" at="23,0,26,0">
         <var name="project" id="4190535063041855328" />
       </scope>
-      <scope id="4190535063041855328" at="29,0,32,0" />
-      <scope id="4190535063041855328" at="23,37,27,38" />
-      <scope id="4190535063041855328" at="23,0,29,0">
+      <scope id="4190535063041855328" at="41,0,44,0" />
+      <scope id="6638639422340947787" at="32,48,36,0" />
+      <scope id="6638639422340932176" at="31,70,37,7" />
+      <scope id="6638639422340932170" at="30,51,38,5">
+        <var name="component" id="6638639422340932172" />
+      </scope>
+      <scope id="4190535063041855328" at="26,37,39,38" />
+      <scope id="4190535063041855328" at="26,0,41,0">
         <var name="project" id="4190535063041855328" />
       </scope>
-      <unit id="4190535063041855328" at="16,0,33,0" name="BrowserPlugin.plugin.Browser_Tool" />
+      <unit id="4190535063041855328" at="18,0,45,0" name="BrowserPlugin.plugin.Browser_Tool" />
     </file>
   </root>
-  <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)/4483285036485049770">
-    <file name="Browser_Action.java">
-      <node id="4483285036485049770" at="12,0,13,0" concept="7" trace="ICON" />
-      <node id="4483285036485049770" at="14,27,15,31" concept="9" />
-      <node id="4483285036485049770" at="15,31,16,35" concept="1" />
-      <node id="4483285036485049770" at="16,35,17,40" concept="1" />
-      <node id="4483285036485049770" at="17,40,18,36" concept="1" />
-      <node id="4483285036485049770" at="18,36,19,24" concept="1" />
-      <node id="4483285036485049770" at="22,32,23,16" concept="5" />
-      <node id="4483285036485143014" at="26,96,27,52" concept="4" />
-      <node id="4483285036485152143" at="27,52,28,20" concept="1" />
-      <node id="4483285036485049770" at="21,0,25,0" concept="3" trace="isDumbAware#()Z" />
-      <node id="4483285036485049770" at="25,0,30,0" concept="3" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
-      <node id="4483285036485049770" at="14,0,21,0" concept="0" trace="Browser_Action#()V" />
-      <scope id="4483285036485049770" at="22,32,23,16" />
-      <scope id="4483285036485049770" at="26,96,28,20">
-        <var name="fxWebView" id="4483285036485143012" />
+  <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)/533590550522690034">
+    <file name="null_Action.java">
+      <node id="533590550522690034" at="13,0,14,0" concept="10" trace="ICON" />
+      <node id="533590550522690034" at="15,24,16,24" concept="11" />
+      <node id="533590550522690034" at="16,24,17,35" concept="1" />
+      <node id="533590550522690034" at="17,35,18,41" concept="1" />
+      <node id="533590550522690034" at="21,32,22,16" concept="7" />
+      <node id="533590550522693186" at="25,96,26,102" concept="1" />
+      <node id="533590550522690034" at="20,0,24,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="533590550522690034" at="24,0,28,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="533590550522690034" at="15,0,20,0" concept="0" trace="null_Action#()V" />
+      <scope id="533590550522690034" at="21,32,22,16" />
+      <scope id="533590550522690034" at="25,96,26,102" />
+      <scope id="533590550522690034" at="15,24,18,41" />
+      <scope id="533590550522690034" at="20,0,24,0" />
+      <scope id="533590550522690034" at="24,0,28,0">
+        <var name="_params" id="533590550522690034" />
+        <var name="event" id="533590550522690034" />
       </scope>
-      <scope id="4483285036485049770" at="21,0,25,0" />
-      <scope id="4483285036485049770" at="14,27,19,24" />
-      <scope id="4483285036485049770" at="25,0,30,0">
-        <var name="_params" id="4483285036485049770" />
-        <var name="event" id="4483285036485049770" />
-      </scope>
-      <scope id="4483285036485049770" at="14,0,21,0" />
-      <unit id="4483285036485049770" at="11,0,31,0" name="BrowserPlugin.plugin.Browser_Action" />
-    </file>
-  </root>
-  <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)/4483285036485236126">
-    <file name="Browser_ActionGroup.java">
-      <node id="4483285036485236126" at="8,0,9,0" concept="7" trace="ID" />
-      <node id="4483285036485236126" at="9,32,10,25" concept="9" />
-      <node id="4483285036485236126" at="10,25,11,30" concept="1" />
-      <node id="4483285036485236126" at="11,30,12,25" concept="1" />
-      <node id="4483285036485236131" at="12,25,13,78" concept="1" />
-      <node id="4483285036485236126" at="9,0,15,0" concept="0" trace="Browser_ActionGroup#()V" />
-      <scope id="4483285036485236126" at="9,32,13,78" />
-      <scope id="4483285036485236126" at="9,0,15,0" />
-      <unit id="4483285036485236126" at="7,0,16,0" name="BrowserPlugin.plugin.Browser_ActionGroup" />
+      <scope id="533590550522690034" at="15,0,20,0" />
+      <unit id="533590550522690034" at="12,0,29,0" name="BrowserPlugin.plugin.null_Action" />
     </file>
   </root>
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)/6615527310055976146">
     <file name="BrowserPlugin_ApplicationPlugin.java">
-      <node id="6615527310055976146" at="10,0,11,0" concept="2" trace="myId" />
-      <node id="6615527310055976146" at="13,27,14,16" concept="5" />
-      <node id="6615527310055976146" at="16,30,17,30" concept="6" />
-      <node id="6615527310055976146" at="17,30,18,36" concept="1" />
-      <node id="6615527310055976146" at="18,36,19,14" concept="6" />
-      <node id="6615527310055976146" at="19,14,20,40" concept="1" />
-      <node id="6615527310055976146" at="22,37,23,89" concept="1" />
-      <node id="6615527310055976146" at="11,0,13,0" concept="0" trace="BrowserPlugin_ApplicationPlugin#()V" />
-      <node id="6615527310055976146" at="13,0,16,0" concept="3" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
-      <node id="6615527310055976146" at="22,0,25,0" concept="3" trace="adjustRegularGroups#()V" />
-      <node id="6615527310055976146" at="16,0,22,0" concept="3" trace="createGroups#()V" />
-      <scope id="6615527310055976146" at="11,44,11,44" />
-      <scope id="6615527310055976146" at="13,27,14,16" />
-      <scope id="6615527310055976146" at="22,37,23,89" />
-      <scope id="6615527310055976146" at="11,0,13,0" />
-      <scope id="6615527310055976146" at="13,0,16,0" />
-      <scope id="6615527310055976146" at="22,0,25,0" />
-      <scope id="6615527310055976146" at="16,30,20,40" />
-      <scope id="6615527310055976146" at="16,0,22,0" />
-      <unit id="6615527310055976146" at="9,0,26,0" name="BrowserPlugin.plugin.BrowserPlugin_ApplicationPlugin" />
+      <node id="6615527310055976146" at="9,0,10,0" concept="2" trace="myId" />
+      <node id="6615527310055976146" at="12,27,13,16" concept="7" />
+      <node id="6615527310055976146" at="15,30,16,30" concept="8" />
+      <node id="6615527310055976146" at="16,30,17,33" concept="1" />
+      <node id="6615527310055976146" at="17,33,18,14" concept="8" />
+      <node id="6615527310055976146" at="10,0,12,0" concept="0" trace="BrowserPlugin_ApplicationPlugin#()V" />
+      <node id="6615527310055976146" at="12,0,15,0" concept="5" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="6615527310055976146" at="15,0,20,0" concept="5" trace="createGroups#()V" />
+      <scope id="6615527310055976146" at="10,44,10,44" />
+      <scope id="6615527310055976146" at="12,27,13,16" />
+      <scope id="6615527310055976146" at="10,0,12,0" />
+      <scope id="6615527310055976146" at="12,0,15,0" />
+      <scope id="6615527310055976146" at="15,30,18,14" />
+      <scope id="6615527310055976146" at="15,0,20,0" />
+      <unit id="6615527310055976146" at="8,0,21,0" name="BrowserPlugin.plugin.BrowserPlugin_ApplicationPlugin" />
     </file>
     <file name="BrowserPlugin_ProjectPlugin.java">
-      <node id="6615527310055976146" at="15,56,16,76" concept="4" />
+      <node id="6615527310055976146" at="15,56,16,76" concept="6" />
       <node id="6615527310055976146" at="16,76,17,71" concept="1" />
-      <node id="6615527310055976146" at="17,71,18,17" concept="5" />
+      <node id="6615527310055976146" at="17,71,18,17" concept="7" />
       <node id="6615527310055976146" at="13,0,15,0" concept="0" trace="BrowserPlugin_ProjectPlugin#()V" />
-      <node id="6615527310055976146" at="15,0,20,0" concept="3" trace="initAllTools1#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />
+      <node id="6615527310055976146" at="15,0,20,0" concept="5" trace="initAllTools1#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />
       <scope id="6615527310055976146" at="13,40,13,40" />
       <scope id="6615527310055976146" at="13,0,15,0" />
       <scope id="6615527310055976146" at="15,56,18,17">
@@ -117,101 +109,8 @@
       </scope>
       <unit id="6615527310055976146" at="12,0,21,0" name="BrowserPlugin.plugin.BrowserPlugin_ProjectPlugin" />
     </file>
-  </root>
-  <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)/6615527310055976890">
-    <file name="SwingFXWebView.java">
-      <node id="6615527310056048302" at="25,0,26,0" concept="2" trace="stage" />
-      <node id="6615527310056048306" at="26,0,27,0" concept="2" trace="browser" />
-      <node id="6615527310056048310" at="27,0,28,0" concept="2" trace="jfxPanel" />
-      <node id="6615527310056048314" at="28,0,29,0" concept="2" trace="swingButton" />
-      <node id="6615527310056048318" at="29,0,30,0" concept="2" trace="webEngine" />
-      <node id="6615527310056048325" at="30,27,31,21" concept="1" />
-      <node id="6615527310056048512" at="33,43,34,23" concept="6" />
-      <node id="6615527310056048342" at="37,25,38,42" concept="4" />
-      <node id="6615527310056048345" at="38,42,39,57" concept="1" />
-      <node id="6615527310056048350" at="39,57,40,54" concept="1" />
-      <node id="6615527310056048355" at="40,54,41,61" concept="1" />
-      <node id="6615527310056048358" at="41,61,42,31" concept="1" />
-      <node id="6615527310056048368" at="46,21,47,38" concept="4" />
-      <node id="6615527310056048371" at="47,38,48,53" concept="1" />
-      <node id="6615527310056048376" at="48,53,49,50" concept="1" />
-      <node id="6615527310056048381" at="49,50,50,57" concept="1" />
-      <node id="6615527310056048384" at="50,57,51,27" concept="1" />
-      <node id="6615527310056048391" at="53,33,54,30" concept="1" />
-      <node id="6615527310056048395" at="54,30,55,18" concept="1" />
-      <node id="6615527310056048397" at="55,18,56,34" concept="1" />
-      <node id="6615527310056048400" at="56,34,57,39" concept="1" />
-      <node id="6615527310056048404" at="57,39,58,32" concept="1" />
-      <node id="6615527310056048426" at="64,29,65,31" concept="1" />
-      <node id="6615527310056048432" at="69,7,70,34" concept="1" />
-      <node id="6615527310056048435" at="70,34,71,41" concept="1" />
-      <node id="6615527310056048451" at="83,25,84,28" concept="1" />
-      <node id="6615527310056048455" at="84,28,85,40" concept="1" />
-      <node id="6615527310056048458" at="85,40,86,33" concept="1" />
-      <node id="6615527310056048462" at="86,33,87,33" concept="4" />
-      <node id="6615527310056048466" at="87,33,88,46" concept="4" />
-      <node id="6615527310056048472" at="88,46,89,30" concept="1" />
-      <node id="6615527310056048524" at="89,30,90,40" concept="6" />
-      <node id="6615527310056048475" at="90,40,91,32" concept="1" />
-      <node id="6615527310056048479" at="91,32,92,40" concept="1" />
-      <node id="6615527310056048483" at="92,40,93,47" concept="1" />
-      <node id="6615527310056048487" at="93,47,94,59" concept="4" />
-      <node id="6615527310056048491" at="94,59,95,30" concept="1" />
-      <node id="6615527310056048494" at="95,30,96,33" concept="1" />
-      <node id="6615527310056048506" at="100,32,101,24" concept="1" />
-      <node id="6615527310056048322" at="30,0,33,0" concept="0" trace="SwingFXWebView#()V" />
-      <node id="6615527310056048502" at="100,0,103,0" concept="3" trace="load#(Ljava/lang/String;)V" />
-      <node id="6615527310056048423" at="63,0,67,0" concept="3" trace="run#()V" />
-      <node id="6615527310056048418" at="61,50,67,11" concept="1" />
-      <node id="6615527310056048365" at="46,0,53,0" concept="3" trace="run#()V" />
-      <node id="6615527310056048338" at="36,0,44,0" concept="3" trace="run#()V" />
-      <node id="6615527310056048413" at="60,0,69,0" concept="3" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-      <node id="6615527310056048333" at="34,23,44,7" concept="1" />
-      <node id="6615527310056048408" at="58,32,69,7" concept="1" />
-      <node id="6615527310056048328" at="33,0,46,0" concept="8" trace="main#(null)V" />
-      <node id="6615527310056048448" at="82,0,98,0" concept="3" trace="run#()V" />
-      <node id="6615527310056048443" at="80,30,98,7" concept="1" />
-      <node id="6615527310056048389" at="53,0,73,0" concept="3" trace="initComponents#()V" />
-      <node id="6615527310056048441" at="80,0,100,0" concept="3" trace="createScene#()V" />
-      <scope id="6615527310056048324" at="30,27,31,21" />
-      <scope id="6615527310056048425" at="64,29,65,31" />
-      <scope id="6615527310056048505" at="100,32,101,24" />
-      <scope id="6615527310056048322" at="30,0,33,0" />
-      <scope id="6615527310056048502" at="100,0,103,0">
-        <var name="url" id="6615527310056048503" />
-      </scope>
-      <scope id="6615527310056048423" at="63,0,67,0" />
-      <scope id="6615527310056048340" at="37,25,42,31">
-        <var name="frame" id="6615527310056048341" />
-      </scope>
-      <scope id="6615527310056048366" at="46,21,51,27">
-        <var name="frame" id="6615527310056048367" />
-      </scope>
-      <scope id="6615527310056048417" at="61,50,67,11" />
-      <scope id="6615527310056048365" at="46,0,53,0" />
-      <scope id="6615527310056048338" at="36,0,44,0" />
-      <scope id="6615527310056048413" at="60,0,69,0">
-        <var name="e" id="6615527310056048415" />
-      </scope>
-      <scope id="6615527310056048332" at="33,43,44,7" />
-      <scope id="6615527310056048328" at="33,0,46,0">
-        <var name="args" id="6615527310056048329" />
-      </scope>
-      <scope id="6615527310056048450" at="83,25,96,33">
-        <var name="children" id="6615527310056048486" />
-        <var name="root" id="6615527310056048461" />
-        <var name="scene" id="6615527310056048465" />
-      </scope>
-      <scope id="6615527310056048448" at="82,0,98,0" />
-      <scope id="6615527310056048390" at="53,33,71,41" />
-      <scope id="6615527310056048442" at="80,30,98,7" />
-      <scope id="6615527310056048389" at="53,0,73,0" />
-      <scope id="6615527310056048441" at="80,0,100,0" />
-      <unit id="6615527310056048422" at="62,30,67,9" name="BrowserPlugin.plugin.SwingFXWebView$3" />
-      <unit id="6615527310056048337" at="35,35,44,5" name="BrowserPlugin.plugin.SwingFXWebView$1" />
-      <unit id="6615527310056048412" at="59,38,69,5" name="BrowserPlugin.plugin.SwingFXWebView$2" />
-      <unit id="6615527310056048447" at="81,29,98,5" name="BrowserPlugin.plugin.SwingFXWebView$3" />
-      <unit id="6615527310055976890" at="24,0,105,0" name="BrowserPlugin.plugin.SwingFXWebView" />
+    <file name="startup.properties">
+      <unit id="6615527310055976146" at="1,0,6,0" name="BrowserPlugin.plugin.startup" />
     </file>
   </root>
 </debug-info>

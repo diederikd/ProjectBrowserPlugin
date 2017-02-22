@@ -7,16 +7,15 @@ import javax.swing.Icon;
 import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import java.util.Map;
+import jetbrains.mps.plugins.projectplugins.ProjectPluginManager;
 
-public class Browser_Action extends BaseAction {
+public class null_Action extends BaseAction {
   private static final Icon ICON = null;
 
-  public Browser_Action() {
-    super("Browser", "", ICON);
+  public null_Action() {
+    super("", "", ICON);
     this.setIsAlwaysVisible(false);
-    this.setExecuteOutsideCommand(true);
-    this.setMnemonic("B".charAt(0));
-    this.addPlace(null);
+    this.setExecuteOutsideCommand(false);
   }
   @Override
   public boolean isDumbAware() {
@@ -24,7 +23,6 @@ public class Browser_Action extends BaseAction {
   }
   @Override
   public void doExecute(@NotNull final AnActionEvent event, final Map<String, Object> _params) {
-    SwingFXWebView fxWebView = new SwingFXWebView();
-    fxWebView.run();
+    event.getProject().getComponent(ProjectPluginManager.class).getTool(Browser_Tool.class).fxWebView;
   }
 }

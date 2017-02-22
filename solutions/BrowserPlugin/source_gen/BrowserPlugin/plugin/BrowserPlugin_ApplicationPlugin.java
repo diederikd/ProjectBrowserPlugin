@@ -4,7 +4,6 @@ package BrowserPlugin.plugin;
 
 import jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin;
 import com.intellij.openapi.extensions.PluginId;
-import jetbrains.mps.ide.actions.SolutionActions_ActionGroup;
 
 public class BrowserPlugin_ApplicationPlugin extends BaseApplicationPlugin {
   private PluginId myId = PluginId.getId("BrowserPlugin");
@@ -15,11 +14,7 @@ public class BrowserPlugin_ApplicationPlugin extends BaseApplicationPlugin {
   }
   public void createGroups() {
     // actions w/o parameters 
-    addAction(new Browser_Action());
+    addAction(new null_Action());
     // groups 
-    addGroup(new Browser_ActionGroup());
-  }
-  public void adjustRegularGroups() {
-    insertGroupIntoAnother(Browser_ActionGroup.ID, SolutionActions_ActionGroup.ID, null);
   }
 }

@@ -5,13 +5,11 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="jfxrt.jar" />
-      <sourceRoot location="jfxswt.jar" />
+      <sourceRoot location="BrowserPlugin.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/jfxrt.jar" />
-    <stubModelEntry path="${module}/jfxswt.jar" />
+    <stubModelEntry path="${module}/BrowserPlugin.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

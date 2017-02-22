@@ -22,6 +22,26 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       switch (switchIndex) {
         case 0:
           if (true) {
+            return Collections.<ConceptEditor>singletonList(new BWBNummer_Editor());
+          }
+          break;
+        case 1:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new Context_Editor());
+          }
+          break;
+        case 2:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new JCTypeC_Editor());
+          }
+          break;
+        case 3:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new JCTypeV_Editor());
+          }
+          break;
+        case 4:
+          if (true) {
             return Collections.<ConceptEditor>singletonList(new URL_Editor());
           }
           break;
@@ -41,5 +61,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL, "URL.structure.URL"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c753675565L, "URL.structure.BWBNummer"), MetaAdapterFactory.getConcept(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c753675588L, "URL.structure.Context"), MetaAdapterFactory.getConcept(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367550dL, "URL.structure.JCTypeC"), MetaAdapterFactory.getConcept(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367551cL, "URL.structure.JCTypeV"), MetaAdapterFactory.getConcept(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL, "URL.structure.URL"));
 }

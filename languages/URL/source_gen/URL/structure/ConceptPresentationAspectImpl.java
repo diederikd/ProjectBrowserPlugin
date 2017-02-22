@@ -9,6 +9,15 @@ import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private final ConceptPresentation props_BWBNummer = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_Context = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_JCKey = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_JCKeyValuePaar = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_JCType = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_JCTypeC = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_JCTypeV = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_JCValue = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_Link = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_URL = new ConceptPresentationBuilder().create();
 
   @Override
@@ -17,6 +26,24 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
       case 0:
+        return props_BWBNummer;
+      case 1:
+        return props_Context;
+      case 2:
+        return props_JCKey;
+      case 3:
+        return props_JCKeyValuePaar;
+      case 4:
+        return props_JCType;
+      case 5:
+        return props_JCTypeC;
+      case 6:
+        return props_JCTypeV;
+      case 7:
+        return props_JCValue;
+      case 8:
+        return props_Link;
+      case 9:
         return props_URL;
     }
     throw new IllegalStateException("Unknown concept " + c);

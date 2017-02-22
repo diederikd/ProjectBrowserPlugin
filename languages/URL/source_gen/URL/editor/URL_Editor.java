@@ -10,6 +10,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
+import javax.swing.JComponent;
+import org.campagnelab.ui.code.Swing.ButtonCallback;
+import com.intellij.tools.Tool;
+import org.campagnelab.ui.code.Swing.Button;
 
 public class URL_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -20,6 +25,7 @@ public class URL_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_jpd4ji_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_jpd4ji_a0(editorContext, node));
+    editorCell.addEditorCell(this.createJComponent_jpd4ji_b0(editorContext, node));
     return editorCell;
   }
   private EditorCell createProperty_jpd4ji_a0(EditorContext editorContext, SNode node) {
@@ -36,5 +42,22 @@ public class URL_Editor extends DefaultNodeEditor {
       return manager.createNodeRoleAttributeCell(attributeConcept, provider.getRoleAttributeKind(), editorCell);
     } else
     return editorCell;
+  }
+  private EditorCell createJComponent_jpd4ji_b0(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, URL_Editor._QueryFunction_JComponent_jpd4ji_a1a(node, editorContext), "_jpd4ji_b0");
+    editorCell.setCellId("JComponent_jpd4ji_b0");
+    return editorCell;
+  }
+  private static JComponent _QueryFunction_JComponent_jpd4ji_a1a(final SNode node, final EditorContext editorContext) {
+    ButtonCallback callback = new ButtonCallback(node, editorContext) {
+      public void process(final SNode n, final EditorContext editorContext) {
+        {
+          final SNode node = ((SNode) n);
+          Tool tool = new Tool();
+        }
+      }
+    };
+    return Button.createButton("..", editorContext, node, callback);
+
   }
 }

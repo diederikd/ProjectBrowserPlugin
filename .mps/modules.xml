@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/URL/URL.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BrowserPlugin/BrowserPlugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Sandbox/Sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

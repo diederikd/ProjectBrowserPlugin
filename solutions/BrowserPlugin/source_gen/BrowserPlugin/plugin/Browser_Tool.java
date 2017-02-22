@@ -6,17 +6,20 @@ import jetbrains.mps.plugins.tool.GeneratedTool;
 import javax.swing.Icon;
 import com.intellij.openapi.project.Project;
 import javax.swing.JPanel;
+import JavaFXBrowser.SwingFXWebView;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import javax.swing.KeyStroke;
 import java.util.HashMap;
 import com.intellij.openapi.wm.ToolWindowAnchor;
 import java.awt.BorderLayout;
+import java.awt.Component;
 import javax.swing.JComponent;
 
 public class Browser_Tool extends GeneratedTool {
   private static final Icon ICON = null;
   private Project projectvar;
   private JPanel jp;
+  private SwingFXWebView fxWebView;
   public Browser_Tool(Project project) {
     super(project, "Browser", MapSequence.<String, KeyStroke>fromMapAndKeysArray(new HashMap<String, KeyStroke>(), "Mac OS X").withValues(KeyStroke.getKeyStroke("alt shift 2")), ICON, ToolWindowAnchor.BOTTOM, false);
   }
@@ -24,6 +27,15 @@ public class Browser_Tool extends GeneratedTool {
     super.init(project);
     Browser_Tool.this.projectvar = project;
     Browser_Tool.this.jp = new JPanel(new BorderLayout());
+    Browser_Tool.this.jp.add(new SwingFXWebView());
+    for (Component component : Browser_Tool.this.jp.getComponents()) {
+      if (component instanceof SwingFXWebView) {
+        Browser_Tool.this.fxWebView = (SwingFXWebView) component;
+        Browser_Tool.this.fxWebView.setCurrentURL("http://wetten.overheid.nl/jci1.3:c:BWBR0011173&artikel=1&z=2000-07-01&g=2000-07-01");
+        Browser_Tool.this.fxWebView.load();
+
+      }
+    }
     Browser_Tool.this.makeAvailable();
   }
   public JComponent getComponent() {
