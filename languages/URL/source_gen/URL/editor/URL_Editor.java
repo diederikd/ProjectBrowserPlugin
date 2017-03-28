@@ -13,7 +13,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
 import org.campagnelab.ui.code.Swing.ButtonCallback;
-import com.intellij.tools.Tool;
+import BrowserPlugin.plugin.BrowserPlugin;
 import org.campagnelab.ui.code.Swing.Button;
 
 public class URL_Editor extends DefaultNodeEditor {
@@ -53,7 +53,8 @@ public class URL_Editor extends DefaultNodeEditor {
       public void process(final SNode n, final EditorContext editorContext) {
         {
           final SNode node = ((SNode) n);
-          Tool tool = new Tool();
+          BrowserPlugin browserPlugin = new BrowserPlugin();
+          browserPlugin.load(node);
         }
       }
     };
