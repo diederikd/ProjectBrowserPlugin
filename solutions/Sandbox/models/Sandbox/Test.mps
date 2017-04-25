@@ -2,7 +2,6 @@
 <model ref="r:f7c2697a-9c26-4fcd-b319-9ce1f032c455(Sandbox.Test)">
   <persistence version="9" />
   <languages>
-    <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="0" />
     <use id="c6a53bd0-9627-4db5-b62a-dbc3d020d641" name="URL" version="0" />
   </languages>
   <imports />
