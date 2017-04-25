@@ -16,10 +16,11 @@
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
-    <import index="f7jo" ref="ada0a25c-94c6-46b2-be8d-bf541ae59769/java:JavaFXBrowser(BrowserPlugin/)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="hzef" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#00f97843-2682-489d-926d-5f451b5582a4(jetbrains.mps.lang.project.modules/module.JavaFxBrowser@project_stub)" />
+    <import index="f7jo" ref="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)" />
     <import index="gwk3" ref="r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)" implicit="true" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
   </imports>
@@ -274,7 +275,7 @@
     <node concept="2BZ0e9" id="5KxbQ6KypAQ" role="2XNbBz">
       <property role="TrG5h" value="fxWebView" />
       <node concept="3Tm6S6" id="5KxbQ6KypAR" role="1B3o_S" />
-      <node concept="3uibUv" id="5KxbQ6KypZX" role="1tU5fm">
+      <node concept="3uibUv" id="1pSDgPN9zB$" role="1tU5fm">
         <ref role="3uigEE" to="f7jo:~SwingFXWebView" resolve="SwingFXWebView" />
       </node>
     </node>
@@ -380,7 +381,7 @@
                         <node concept="3clFbS" id="5QFVCQsKvaN" role="2LFqv$">
                           <node concept="3clFbJ" id="5QFVCQsKvaO" role="3cqZAp">
                             <node concept="2ZW3vV" id="5QFVCQsKvaP" role="3clFbw">
-                              <node concept="3uibUv" id="5QFVCQsKvaQ" role="2ZW6by">
+                              <node concept="3uibUv" id="1pSDgPN9wIH" role="2ZW6by">
                                 <ref role="3uigEE" to="f7jo:~SwingFXWebView" resolve="SwingFXWebView" />
                               </node>
                               <node concept="2GrUjf" id="5QFVCQsKvaR" role="2ZW6bz">
@@ -397,7 +398,7 @@
                                     </node>
                                   </node>
                                   <node concept="10QFUN" id="5QFVCQsKvaY" role="37vLTx">
-                                    <node concept="3uibUv" id="5QFVCQsKvaZ" role="10QFUM">
+                                    <node concept="3uibUv" id="1pSDgPN9wRF" role="10QFUM">
                                       <ref role="3uigEE" to="f7jo:~SwingFXWebView" resolve="SwingFXWebView" />
                                     </node>
                                     <node concept="2GrUjf" id="5QFVCQsKvb0" role="10QFUP">
