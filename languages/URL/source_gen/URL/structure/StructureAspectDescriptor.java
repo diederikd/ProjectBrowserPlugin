@@ -131,7 +131,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "URL", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL);
     b.class_(false, false, false);
     b.super_("URL.structure.Link", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367546cL);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/4483285036485027133");
     b.prop("url", 0x767b1c753675469L, "533590550522582121");
     return b.create();

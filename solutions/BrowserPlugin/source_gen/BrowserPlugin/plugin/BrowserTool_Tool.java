@@ -24,6 +24,7 @@ public class BrowserTool_Tool extends GeneratedTool {
   private Project projectvar;
   private JPanel jp;
   private SwingFXWebView fxWebView;
+  private BrowserPlugin browserPlugin;
   public BrowserTool_Tool(Project project) {
     super(project, "Wetten.nl", MapSequence.<String, KeyStroke>fromMapAndKeysArray(new HashMap<String, KeyStroke>(), "Mac OS X").withValues(KeyStroke.getKeyStroke("alt shift 2")), ICON, ToolWindowAnchor.BOTTOM, false);
   }
@@ -32,6 +33,7 @@ public class BrowserTool_Tool extends GeneratedTool {
     Runnable r = new Runnable() {
       public void run() {
         BrowserTool_Tool.this.projectvar = project;
+        BrowserTool_Tool.this.browserPlugin = new BrowserPlugin(project, BrowserTool_Tool.this);
         BrowserTool_Tool.this.jp = new JPanel(new BorderLayout());
         BrowserTool_Tool.this.jp.add(new SwingFXWebView());
         for (Component component : BrowserTool_Tool.this.jp.getComponents()) {
@@ -48,8 +50,17 @@ public class BrowserTool_Tool extends GeneratedTool {
 
   }
   public void load(SNode url) {
-    BrowserTool_Tool.this.fxWebView.setCurrentURL(SPropertyOperations.getString(url, MetaAdapterFactory.getProperty(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL, 0x767b1c753675469L, "url")));
-    BrowserTool_Tool.this.fxWebView.load();
+    System.out.println("load URL " + SPropertyOperations.getString(url, MetaAdapterFactory.getProperty(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL, 0x767b1c753675469L, "url")));
+    final String urlstring = SPropertyOperations.getString(url, MetaAdapterFactory.getProperty(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL, 0x767b1c753675469L, "url"));
+    Runnable r = new Runnable() {
+      public void run() {
+        BrowserTool_Tool.this.fxWebView.setCurrentURL(urlstring);
+        System.out.println("URL" + urlstring);
+        BrowserTool_Tool.this.fxWebView.load();
+        System.out.println("loaded");
+      }
+    };
+    ThreadUtils.runInUIThreadNoWait(r);
   }
   public JComponent getComponent() {
     return BrowserTool_Tool.this.jp;

@@ -12,6 +12,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 /*package*/ class URL_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -38,21 +39,29 @@ import jetbrains.mps.nodeEditor.EditorManager;
     editorCell.setBig(true);
     editorCell.setCellContext(getCellFactory().getCellContext());
     editorCell.addEditorCell(createProperty_jpd4ji_a0());
+    editorCell.addEditorCell(createConstant_jpd4ji_b0());
     return editorCell;
   }
   private EditorCell createProperty_jpd4ji_a0() {
     CellProviderWithRole provider = new PropertyCellProvider(myNode, getEditorContext());
-    provider.setRole("name");
-    provider.setNoTargetText("<no name>");
+    provider.setRole("url");
+    provider.setNoTargetText("<no url>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(getEditorContext());
-    editorCell.setCellId("property_name");
+    editorCell.setCellId("property_url");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     if (attributeConcept != null) {
       EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
       return manager.createNodeRoleAttributeCell(attributeConcept, provider.getRoleAttributeKind(), editorCell);
     } else
+    return editorCell;
+  }
+  private EditorCell createConstant_jpd4ji_b0() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "..");
+    editorCell.setCellId("Constant_jpd4ji_b0");
+    OpenBrowser.setCellActions(editorCell, myNode, getEditorContext());
+    editorCell.setDefaultText("");
     return editorCell;
   }
 }
