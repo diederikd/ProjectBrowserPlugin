@@ -3,12 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
-    <import index="4gmt" ref="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)" />
-    <import index="1fmc" ref="r:4cec5b5b-0fcc-4674-abb9-27263d97025d(org.campagnelab.ui.code.Swing)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -21,13 +18,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
-        <reference id="1169127628841" name="intfc" index="PrY4T" />
-      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -51,9 +44,6 @@
     <property role="EcuMT" value="4483285036485027133" />
     <property role="TrG5h" value="URL" />
     <ref role="1TJDcQ" node="tBGstjpPhG" resolve="Link" />
-    <node concept="PrWs8" id="3SROZMUwUkY" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyi" id="tBGstjpPhD" role="1TKVEl">
       <property role="IQ2nx" value="533590550522582121" />
       <property role="TrG5h" value="url" />

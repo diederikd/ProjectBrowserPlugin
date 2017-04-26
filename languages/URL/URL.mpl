@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="URL#6615527310055976139" uuid="fb539306-8c75-47b4-ad75-b0240c2143cc">
+    <generator generatorUID="URL#4536059984594152009" uuid="fb539306-8c75-47b4-ad75-b0240c2143cc">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -15,7 +15,6 @@
       </models>
       <external-templates />
       <usedDevKits>
-        <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
         <usedDevKit>a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)</usedDevKit>
       </usedDevKits>
       <languageVersions>
@@ -42,7 +41,7 @@
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="c6a53bd0-9627-4db5-b62a-dbc3d020d641(URL)" version="0" />
-        <module reference="fb539306-8c75-47b4-ad75-b0240c2143cc(URL#6615527310055976139)" version="0" />
+        <module reference="fb539306-8c75-47b4-ad75-b0240c2143cc(URL#4536059984594152009)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
@@ -53,8 +52,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">ada0a25c-94c6-46b2-be8d-bf541ae59769(BrowserPlugin)</dependency>
-    <dependency reexport="false">2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a(org.campagnelab.ui.code)</dependency>
-    <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">67b3c41d-58b3-4756-b971-30bf8a9d63e6(jetbrains.jetpad)</dependency>
@@ -97,7 +94,6 @@
     <language slang="l:b83431fe-5c8f-40bc-8a36-65e25f4dd253:jetbrains.mps.lang.textGen" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" version="0" />
-    <language slang="l:c1ba4037-e4db-47d8-8b61-b3c805b648f2:org.campagnelab.ui" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -111,10 +107,8 @@
     <module reference="c6a53bd0-9627-4db5-b62a-dbc3d020d641(URL)" version="0" />
     <module reference="67b3c41d-58b3-4756-b971-30bf8a9d63e6(jetbrains.jetpad)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-    <module reference="642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-    <module reference="2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a(org.campagnelab.ui.code)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>

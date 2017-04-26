@@ -45,7 +45,7 @@ public class Language extends LanguageRuntime {
   }
   @Override
   public Collection<TemplateModule> getGenerators() {
-    return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "fb539306-8c75-47b4-ad75-b0240c2143cc(URL#6615527310055976139)"));
+    return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "fb539306-8c75-47b4-ad75-b0240c2143cc(URL#4536059984594152009)"));
   }
   @Override
   protected <T extends ILanguageAspect> T createAspect(Class<T> aspectClass) {

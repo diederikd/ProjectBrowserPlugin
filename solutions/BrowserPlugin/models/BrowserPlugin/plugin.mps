@@ -279,6 +279,13 @@
         <ref role="3uigEE" to="f7jo:~SwingFXWebView" resolve="SwingFXWebView" />
       </node>
     </node>
+    <node concept="2BZ0e9" id="3VNkCntASIe" role="2XNbBz">
+      <property role="TrG5h" value="browserPlugin" />
+      <node concept="3Tm6S6" id="3VNkCntASIf" role="1B3o_S" />
+      <node concept="3uibUv" id="3VNkCntATVI" role="1tU5fm">
+        <ref role="3uigEE" node="1n9jAIspa_5" resolve="BrowserPlugin" />
+      </node>
+    </node>
     <node concept="2UmK3q" id="3CBLmZVrsXx" role="2Um5zG">
       <node concept="3clFbS" id="3CBLmZVrsXy" role="2VODD2">
         <node concept="3cpWs6" id="3CBLmZVryxY" role="3cqZAp">
@@ -321,6 +328,23 @@
                             <node concept="2WthIp" id="5QFVCQsKvap" role="2Oq$k0" />
                             <node concept="2BZ7hE" id="5QFVCQsKvaq" role="2OqNvi">
                               <ref role="2WH_rO" node="4p4TdcaCZxl" resolve="projectvar" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="3VNkCntAXtT" role="3cqZAp">
+                        <node concept="37vLTI" id="3VNkCntAYBb" role="3clFbG">
+                          <node concept="2ShNRf" id="3VNkCntAZa9" role="37vLTx">
+                            <node concept="1pGfFk" id="3VNkCntAZ01" role="2ShVmc">
+                              <ref role="37wK5l" node="1n9jAIsp$2a" resolve="BrowserPlugin" />
+                              <node concept="2xqhHp" id="3VNkCntAZkS" role="37wK5m" />
+                              <node concept="2WthIp" id="3VNkCntAZXt" role="37wK5m" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="3VNkCntAXYl" role="37vLTJ">
+                            <node concept="2WthIp" id="3VNkCntAXtR" role="2Oq$k0" />
+                            <node concept="2BZ7hE" id="3VNkCntAYhl" role="2OqNvi">
+                              <ref role="2WH_rO" node="3VNkCntASIe" resolve="browserPlugin" />
                             </node>
                           </node>
                         </node>

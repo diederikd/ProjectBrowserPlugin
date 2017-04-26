@@ -3,28 +3,23 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
-    <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="0" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
-    <import index="1fmc" ref="r:4cec5b5b-0fcc-4674-abb9-27263d97025d(org.campagnelab.ui.code.Swing)" />
-    <import index="1fmc" ref="r:4cec5b5b-0fcc-4674-abb9-27263d97025d(org.campagnelab.ui.code.Swing)" />
     <import index="4gmt" ref="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)" />
     <import index="4gmt" ref="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)" />
-    <import index="f7jo" ref="ada0a25c-94c6-46b2-be8d-bf541ae59769/java:JavaFXBrowser(BrowserPlugin/)" />
-    <import index="4lh0" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#ada0a25c-94c6-46b2-be8d-bf541ae59769(jetbrains.mps.lang.project.modules/module.BrowserPlugin@project_stub)" />
     <import index="8gtt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.tools(MPS.IDEA/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" />
     <import index="v7xa" ref="67b3c41d-58b3-4756-b971-30bf8a9d63e6/java:jetbrains.jetpad.event(jetbrains.jetpad/)" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="gwk3" ref="r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="1402906326895675325" name="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" flags="nn" index="0IXxy" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
@@ -37,8 +32,20 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
+        <reference id="1139535219968" name="applicableConcept" index="1h_SK9" />
+        <child id="1139535219969" name="item" index="1h_SK8" />
+      </concept>
+      <concept id="1139535280617" name="jetbrains.mps.lang.editor.structure.CellActionMapItem" flags="lg" index="1hA7zw">
+        <property id="1139535298778" name="actionId" index="1hAc7j" />
+        <child id="1139535280620" name="executeFunction" index="1hA7z_" />
+      </concept>
+      <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
+      </concept>
+      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <reference id="1139959269582" name="actionMap" index="1ERwB7" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -96,14 +103,6 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
     </language>
-    <language id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui">
-      <concept id="1879241968983569938" name="org.campagnelab.ui.structure.ButtonHandler" flags="ig" index="ykhUf" />
-      <concept id="1879241968983569921" name="org.campagnelab.ui.structure.Button" flags="ng" index="ykhUs">
-        <property id="1879241968983569933" name="label" index="ykhUg" />
-        <child id="1879241968983811680" name="handler" index="ynkVX" />
-      </concept>
-      <concept id="1135156181802355102" name="org.campagnelab.ui.structure.ButtonNodeParameter" flags="ng" index="1VaYGm" />
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -114,38 +113,11 @@
     <ref role="1XX52x" to="gwk3:3SROZMUwUkX" resolve="URL" />
     <node concept="3EZMnI" id="3SROZMUwUlq" role="2wV5jI">
       <node concept="3F0A7n" id="3SROZMUwUlx" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1NtTu8" to="gwk3:tBGstjpPhD" resolve="url" />
       </node>
-      <node concept="ykhUs" id="tBGstjpTpt" role="3EZMnx">
-        <property role="ykhUg" value=".." />
-        <node concept="ykhUf" id="tBGstjpTpu" role="ynkVX">
-          <node concept="3clFbS" id="tBGstjpTpv" role="2VODD2">
-            <node concept="3cpWs8" id="1n9jAIspNLh" role="3cqZAp">
-              <node concept="3cpWsn" id="1n9jAIspNLi" role="3cpWs9">
-                <property role="TrG5h" value="browserPlugin" />
-                <node concept="3uibUv" id="1n9jAIspNLj" role="1tU5fm">
-                  <ref role="3uigEE" to="4gmt:1n9jAIspa_5" resolve="BrowserPlugin" />
-                </node>
-                <node concept="2ShNRf" id="1n9jAIspPb6" role="33vP2m">
-                  <node concept="1pGfFk" id="1n9jAIspPb5" role="2ShVmc">
-                    <ref role="37wK5l" to="4gmt:1n9jAIspP95" resolve="BrowserPlugin" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="1n9jAIspPhD" role="3cqZAp">
-              <node concept="2OqwBi" id="1n9jAIspPni" role="3clFbG">
-                <node concept="37vLTw" id="1n9jAIspPhB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1n9jAIspNLi" resolve="browserPlugin" />
-                </node>
-                <node concept="liA8E" id="1n9jAIspPvu" role="2OqNvi">
-                  <ref role="37wK5l" to="4gmt:1n9jAIspAkf" resolve="load" />
-                  <node concept="1VaYGm" id="1n9jAIspPwr" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+      <node concept="3F0ifn" id="3VNkCntAkRH" role="3EZMnx">
+        <property role="3F0ifm" value=".." />
+        <ref role="1ERwB7" node="3VNkCntAkSy" resolve="CallBrowser" />
       </node>
       <node concept="l2Vlx" id="3SROZMUwUlt" role="2iSdaV" />
     </node>
@@ -178,6 +150,41 @@
       <node concept="l2Vlx" id="tBGstjpPmq" role="2czzBx" />
       <node concept="pj6Ft" id="tBGstjpPmt" role="3F10Kt">
         <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="1h_SRR" id="3VNkCntAkSy">
+    <property role="TrG5h" value="CallBrowser" />
+    <ref role="1h_SK9" to="gwk3:3SROZMUwUkX" resolve="URL" />
+    <node concept="1hA7zw" id="3VNkCntAkSz" role="1h_SK8">
+      <property role="1hAc7j" value="click_action_id" />
+      <node concept="1hAIg9" id="3VNkCntAkS$" role="1hA7z_">
+        <node concept="3clFbS" id="3VNkCntAkS_" role="2VODD2">
+          <node concept="3cpWs8" id="1n9jAIspNLh" role="3cqZAp">
+            <node concept="3cpWsn" id="1n9jAIspNLi" role="3cpWs9">
+              <property role="TrG5h" value="browserPlugin" />
+              <node concept="3uibUv" id="1n9jAIspNLj" role="1tU5fm">
+                <ref role="3uigEE" to="4gmt:1n9jAIspa_5" resolve="BrowserPlugin" />
+              </node>
+              <node concept="2ShNRf" id="1n9jAIspPb6" role="33vP2m">
+                <node concept="1pGfFk" id="1n9jAIspPb5" role="2ShVmc">
+                  <ref role="37wK5l" to="4gmt:1n9jAIspP95" resolve="BrowserPlugin" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1n9jAIspPhD" role="3cqZAp">
+            <node concept="2OqwBi" id="1n9jAIspPni" role="3clFbG">
+              <node concept="37vLTw" id="1n9jAIspPhB" role="2Oq$k0">
+                <ref role="3cqZAo" node="1n9jAIspNLi" resolve="browserPlugin" />
+              </node>
+              <node concept="liA8E" id="1n9jAIspPvu" role="2OqNvi">
+                <ref role="37wK5l" to="4gmt:1n9jAIspAkf" resolve="load" />
+                <node concept="0IXxy" id="3VNkCntAnvd" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

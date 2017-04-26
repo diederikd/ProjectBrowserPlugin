@@ -10,11 +10,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
-import javax.swing.JComponent;
-import org.campagnelab.ui.code.Swing.ButtonCallback;
-import BrowserPlugin.plugin.BrowserPlugin;
-import org.campagnelab.ui.code.Swing.Button;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class URL_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -25,16 +21,16 @@ public class URL_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_jpd4ji_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_jpd4ji_a0(editorContext, node));
-    editorCell.addEditorCell(this.createJComponent_jpd4ji_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpd4ji_b0(editorContext, node));
     return editorCell;
   }
   private EditorCell createProperty_jpd4ji_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("name");
-    provider.setNoTargetText("<no name>");
+    provider.setRole("url");
+    provider.setNoTargetText("<no url>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_name");
+    editorCell.setCellId("property_url");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     if (attributeConcept != null) {
@@ -43,22 +39,11 @@ public class URL_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-  private EditorCell createJComponent_jpd4ji_b0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, URL_Editor._QueryFunction_JComponent_jpd4ji_a1a(node, editorContext), "_jpd4ji_b0");
-    editorCell.setCellId("JComponent_jpd4ji_b0");
+  private EditorCell createConstant_jpd4ji_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "..");
+    editorCell.setCellId("Constant_jpd4ji_b0");
+    CallBrowser.setCellActions(editorCell, node, editorContext);
+    editorCell.setDefaultText("");
     return editorCell;
-  }
-  private static JComponent _QueryFunction_JComponent_jpd4ji_a1a(final SNode node, final EditorContext editorContext) {
-    ButtonCallback callback = new ButtonCallback(node, editorContext) {
-      public void process(final SNode n, final EditorContext editorContext) {
-        {
-          final SNode node = ((SNode) n);
-          BrowserPlugin browserPlugin = new BrowserPlugin();
-          browserPlugin.load(node);
-        }
-      }
-    };
-    return Button.createButton("..", editorContext, node, callback);
-
   }
 }
