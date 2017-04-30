@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module namespace="JavaFxBrowser" type="solution" uuid="00f97843-2682-489d-926d-5f451b5582a4">
+  <dependencies>
+    <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+  </dependencies>
+  <library jar="../../BrowserPlugin.jar" />
+  <sources descriptor="JavaFxBrowser.msd" jar="JavaFxBrowser-src.jar" />
+</module>
