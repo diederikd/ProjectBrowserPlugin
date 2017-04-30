@@ -19,7 +19,6 @@
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="hzef" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#00f97843-2682-489d-926d-5f451b5582a4(jetbrains.mps.lang.project.modules/module.JavaFxBrowser@project_stub)" />
     <import index="f7jo" ref="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)" />
     <import index="gwk3" ref="r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)" implicit="true" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
