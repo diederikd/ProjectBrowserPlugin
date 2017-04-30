@@ -11,7 +11,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="URL.editor.CallBrowser" file="CallBrowser.java">
-    <classNode dependClassName="BrowserPlugin.plugin.BrowserPlugin" />
+    <classNode dependClassName="MPSBrowserPlugin.plugin.MPSBrowserPlugin" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.cells.CellActionType" />

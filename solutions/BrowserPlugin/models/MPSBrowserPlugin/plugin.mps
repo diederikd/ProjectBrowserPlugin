@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(BrowserPlugin.plugin)">
+<model ref="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)">
   <persistence version="9" />
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="-1" />
@@ -282,7 +282,7 @@
       <property role="TrG5h" value="browserPlugin" />
       <node concept="3Tm6S6" id="3VNkCntASIf" role="1B3o_S" />
       <node concept="3uibUv" id="3VNkCntATVI" role="1tU5fm">
-        <ref role="3uigEE" node="1n9jAIspa_5" resolve="BrowserPlugin" />
+        <ref role="3uigEE" node="1n9jAIspa_5" resolve="MPSBrowserPlugin" />
       </node>
     </node>
     <node concept="2UmK3q" id="3CBLmZVrsXx" role="2Um5zG">
@@ -335,7 +335,7 @@
                         <node concept="37vLTI" id="3VNkCntAYBb" role="3clFbG">
                           <node concept="2ShNRf" id="3VNkCntAZa9" role="37vLTx">
                             <node concept="1pGfFk" id="3VNkCntAZ01" role="2ShVmc">
-                              <ref role="37wK5l" node="1n9jAIsp$2a" resolve="BrowserPlugin" />
+                              <ref role="37wK5l" node="1n9jAIsp$2a" resolve="MPSBrowserPlugin" />
                               <node concept="2xqhHp" id="3VNkCntAZkS" role="37wK5m" />
                               <node concept="2WthIp" id="3VNkCntAZXt" role="37wK5m" />
                             </node>
@@ -501,7 +501,7 @@
     </node>
   </node>
   <node concept="312cEu" id="1n9jAIspa_5">
-    <property role="TrG5h" value="BrowserPlugin" />
+    <property role="TrG5h" value="MPSBrowserPlugin" />
     <property role="1EXbeo" value="false" />
     <node concept="Wx3nA" id="1n9jAIspICG" role="jymVt">
       <property role="TrG5h" value="project" />

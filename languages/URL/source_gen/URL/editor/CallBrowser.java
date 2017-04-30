@@ -7,7 +7,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
-import BrowserPlugin.plugin.BrowserPlugin;
+import MPSBrowserPlugin.plugin.MPSBrowserPlugin;
 
 public class CallBrowser {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
@@ -22,7 +22,7 @@ public class CallBrowser {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      BrowserPlugin browserPlugin = new BrowserPlugin();
+      MPSBrowserPlugin browserPlugin = new MPSBrowserPlugin();
       browserPlugin.load(node);
     }
   }
