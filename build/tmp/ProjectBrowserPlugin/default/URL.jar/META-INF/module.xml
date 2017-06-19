@@ -19,5 +19,8 @@
     <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
     <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
   </dependencies>
+  <classpath>
+    <entry path="." />
+  </classpath>
   <sources descriptor="URL.mpl" jar="URL-src.jar" />
 </module>

@@ -5,7 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/URL/URL.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BrowserPlugin/MPSBrowserPlugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/JavaFxBrowser/JavaFxBrowser.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Sandbox/Sandbox.msd" folder="" />
     </projectModules>
   </component>

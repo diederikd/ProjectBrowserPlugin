@@ -4,5 +4,8 @@
     <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
   </dependencies>
   <library jar="../../BrowserPlugin.jar" />
+  <classpath>
+    <entry path="." />
+  </classpath>
   <sources descriptor="JavaFxBrowser.msd" jar="JavaFxBrowser-src.jar" />
 </module>
