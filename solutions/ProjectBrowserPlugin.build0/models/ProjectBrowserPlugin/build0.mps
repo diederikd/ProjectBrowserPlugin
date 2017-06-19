@@ -3,13 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="2" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="3" />
     <use id="fdcdc48f-bfd8-4831-aa76-5abac2ffa010" name="jetbrains.mps.baseLanguage.jdk8" version="0" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="6bop" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#b387285c-3448-452c-b3bb-a3f8de8eaf08(jetbrains.mps.lang.project.modules/module.JDK-tools@project_stub)" />
-    <import index="l6yi" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#6354ebe7-c22a-4a0f-ac54-50b52ab9b065(jetbrains.mps.lang.project.modules/module.JDK@project_stub)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -199,7 +197,7 @@
       </node>
     </node>
     <node concept="2sgV4H" id="7KfSk53DZsv" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:6qT2v0qOlpw" resolve="mpsJava" />
+      <ref role="1l3spb" to="ffeo:6qT2v0qOlpw" resolve="mpsJavaPlatform" />
       <node concept="398BVA" id="7KfSk53DZsV" role="2JcizS">
         <ref role="398BVh" node="7KfSk53DWx2" resolve="mps_home" />
       </node>

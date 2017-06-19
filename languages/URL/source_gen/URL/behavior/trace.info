@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
   <root>
-    <file name="BWBNummer_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.BWBNummer_BehaviorDescriptor" />
-    </file>
     <file name="BehaviorAspectDescriptor.java">
-      <unit at="13,0,41,0" name="URL.behavior.BehaviorAspectDescriptor" />
-    </file>
-    <file name="Context_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.Context_BehaviorDescriptor" />
-    </file>
-    <file name="JCKeyValuePaar_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.JCKeyValuePaar_BehaviorDescriptor" />
-    </file>
-    <file name="JCKey_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.JCKey_BehaviorDescriptor" />
-    </file>
-    <file name="JCTypeC_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.JCTypeC_BehaviorDescriptor" />
-    </file>
-    <file name="JCTypeV_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.JCTypeV_BehaviorDescriptor" />
-    </file>
-    <file name="JCType_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.JCType_BehaviorDescriptor" />
-    </file>
-    <file name="JCValue_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.JCValue_BehaviorDescriptor" />
-    </file>
-    <file name="Link_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.Link_BehaviorDescriptor" />
-    </file>
-    <file name="URL_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="URL.behavior.URL_BehaviorDescriptor" />
+      <unit at="11,0,22,0" name="URL.behavior.BehaviorAspectDescriptor" />
     </file>
   </root>
 </debug-info>

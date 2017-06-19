@@ -2,13 +2,12 @@
 <model ref="r:bc138c2d-7a7c-4478-8987-ef56e424715e(URL.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
-    <import index="4gmt" ref="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)" />
     <import index="4gmt" ref="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)" />
     <import index="8gtt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.tools(MPS.IDEA/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" />
@@ -164,11 +163,11 @@
             <node concept="3cpWsn" id="1n9jAIspNLi" role="3cpWs9">
               <property role="TrG5h" value="browserPlugin" />
               <node concept="3uibUv" id="1n9jAIspNLj" role="1tU5fm">
-                <ref role="3uigEE" to="4gmt:1n9jAIspa_5" resolve="BrowserPlugin" />
+                <ref role="3uigEE" to="4gmt:1n9jAIspa_5" resolve="MPSBrowserPlugin" />
               </node>
               <node concept="2ShNRf" id="1n9jAIspPb6" role="33vP2m">
                 <node concept="1pGfFk" id="1n9jAIspPb5" role="2ShVmc">
-                  <ref role="37wK5l" to="4gmt:1n9jAIspP95" resolve="BrowserPlugin" />
+                  <ref role="37wK5l" to="4gmt:1n9jAIspP95" resolve="MPSBrowserPlugin" />
                 </node>
               </node>
             </node>

@@ -18,4 +18,7 @@ public class BrowserPlugin {
   public void load(SNode url) {
     browsertool.load(url);
   }
+  public BrowserTool_Tool gettool() {
+    return browsertool;
+  }
 }

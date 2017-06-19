@@ -6,17 +6,9 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class JCTypeV_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createConstant_zarw44_a(editorContext, node);
-  }
-  private EditorCell createConstant_zarw44_a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "v");
-    editorCell.setCellId("Constant_zarw44_a");
-    editorCell.setBig(true);
-    editorCell.setDefaultText("");
-    return editorCell;
+    return new JCTypeV_EditorBuilder_a(editorContext, node).createCell();
   }
 }
