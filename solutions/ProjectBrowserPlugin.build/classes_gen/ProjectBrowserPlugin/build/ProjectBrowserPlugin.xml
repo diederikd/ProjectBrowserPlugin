@@ -37,7 +37,6 @@
         <name>ProjectBrowserPlugin</name>
         <version>1.0</version>
         <depends>jetbrains.mps.core</depends>
-        <depends>jetbrains.mps.build</depends>
         <depends>jetbrains.jetpad</depends>
         
         <extensions defaultExtensionNs="com.intellij">
@@ -238,7 +237,6 @@
     <echo message="generating" />
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true">
       <plugin path="${artifacts.mps}/plugins/jetpad" />
-      <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />

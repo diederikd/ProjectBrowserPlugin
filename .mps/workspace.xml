@@ -7,102 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0832d75f-2c51-4b39-8276-6725b1bbcb75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/aspectcps-descriptorclasses.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/checkpoints" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/aspectcps-descriptorclasses.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/checkpoints" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/typesystem/aspectcps-descriptorclasses.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/typesystem/checkpoints" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen.caches/ProjectBrowserPlugin/build/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen/ProjectBrowserPlugin/build/trace.info" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/BrowserPlugin-models/MPSBrowserPlugin/plugin.mpb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-ProjectBrowserPlugin.build0-models/ProjectBrowserPlugin/build0.mpb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.build.jar/META-INF/module.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build-src.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/BWBNummer_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/Context_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCKeyValuePaar_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCKey_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCTypeC_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCTypeV_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCType_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCValue_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/Link_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/URL_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/Context_Editor$linksListHandler_d0e2am_a0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/BWBNummer_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/Context_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCKeyValuePaar_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCKey_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCTypeC_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCTypeV_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCType_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCValue_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/Link_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/URL_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/Context_Editor$linksListHandler_d0e2am_a0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/classes_gen/ProjectBrowserPlugin/buildURL/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen.caches/ProjectBrowserPlugin/buildURL/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen/ProjectBrowserPlugin/buildURL/trace.info" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL.msd" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/ProjectBrowserPlugin.build.msd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/classes_gen/ProjectBrowserPlugin/buildURL/ProjectBrowserPlugin.xml" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/models/ProjectBrowserPlugin.buildURL.mps" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen.caches/ProjectBrowserPlugin/buildURL/dependencies" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen.caches/ProjectBrowserPlugin/build/dependencies" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen/ProjectBrowserPlugin/buildURL/ProjectBrowserPlugin.xml" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/ProjectBrowserPlugin.zip" afterPath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/ProjectBrowserPlugin.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/constraints.mpb" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/constraints.mpb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/structure.mpb" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/structure.mpb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/typesystem.mpb" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/typesystem.mpb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser-src.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser-src.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin-src.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin-src.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-generator.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-generator.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-src.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-src.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/Language.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL#4536059984594152009/URL/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL#4536059984594152009/URL/generator/template/main/QueriesGenerated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/Language.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/BehaviorAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/constraints/ConstraintsAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/constraints/ConstraintsAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/EditorAspectDescriptorImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/Language.class" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/EditorAspectDescriptorImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/QueriesGenerated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/migration.xml" afterPath="$PROJECT_DIR$/.mps/migration.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/modules.xml" afterPath="$PROJECT_DIR$/.mps/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/build.properties" afterPath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/build.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/META-INF/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/URL.mpl" afterPath="$PROJECT_DIR$/languages/URL/URL.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/trace.info" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/trace.info" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/source_gen.caches/URL/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/URL/generator/source_gen.caches/URL/generator/template/main/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/constraints.mps" afterPath="$PROJECT_DIR$/languages/URL/models/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/editor.mps" afterPath="$PROJECT_DIR$/languages/URL/models/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/structure.mps" afterPath="$PROJECT_DIR$/languages/URL/models/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/URL/models/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/constraints/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/editor/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/structure/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/typesystem/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/typesystem/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/Language.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/Language.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/behavior/BehaviorAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/ConstraintsAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/ConstraintsAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/editor/EditorAspectDescriptorImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/ConceptPresentationAspectImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/trace.info" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/trace.info" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/trace.info" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/trace.info" />
     </list>
     <ignored path="ProjectBrowserPlugin.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -130,7 +37,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="016875f2-d363-4c9e-8b4d-a485f53512d4/r:4d15e895-0a52-427e-99fa-5b85f09c37f7(TempModule016875f2-d363-4c9e-8b4d-a485f53512d4/TempModel_27157146555249)">
+            <model ref="fe4580f1-463a-4c8c-94f3-b417697fcd78/r:c1af4222-a8b2-4749-847b-d4887898f979(TempModulefe4580f1-463a-4c8c-94f3-b417697fcd78/TempModel_27797745605828)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -164,13 +71,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6CA5Kg6Uytn">
-                <node concept="3balQm" id="6CA5Kg6Uyto" role="aymYE" />
-                <node concept="2Clz$F" id="6CA5Kg6Uytp" role="aymYO">
+              <node concept="aymSD" id="6CA5Kg6VE9J">
+                <node concept="3balQm" id="6CA5Kg6VE9K" role="aymYE" />
+                <node concept="2Clz$F" id="6CA5Kg6VE9L" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="6CA5Kg6Uytq" role="1PhJh3">
-                  <ref role="2_V_lI" node="6CA5Kg6Uytp" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="6CA5Kg6VE9M" role="1PhJh3">
+                  <ref role="2_V_lI" node="6CA5Kg6VE9L" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -529,6 +436,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -536,14 +444,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectBrowserPlugin" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -552,12 +452,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -589,6 +483,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -613,7 +521,6 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
@@ -736,14 +643,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26511627" sideWeight="0.44947734" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790697" sideWeight="0.4695122" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33488372" sideWeight="0.43528694" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33604652" sideWeight="0.43528694" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Wetten.nl" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26771653" sideWeight="0.44599304" order="31" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.49676898" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33070865" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4337979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44163764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="27" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="28" side_tool="false" content_ui="tabs" />
@@ -866,7 +773,8 @@
     <MESSAGE value="Build created" />
     <MESSAGE value="Plugin build created" />
     <MESSAGE value="Merge branch 'MPS_2017.1'&#10;&#10;# Conflicts:&#10;#&#9;languages/URL/URL.mpl&#10;#&#9;languages/URL/classes_gen/URL/Language.class&#10;#&#9;languages/URL/classes_gen/URL/structure/StructureAspectDescriptor.class&#10;#&#9;languages/URL/models/editor.mps&#10;#&#9;languages/URL/source_gen/URL/editor/URL_Editor.java&#10;#&#9;languages/URL/source_gen/URL/structure/StructureAspectDescriptor.java&#10;#&#9;solutions/BrowserPlugin/models/MPSBrowserPlugin/plugin.mps&#10;#&#9;solutions/Sandbox/models/Sandbox/Test.mps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'MPS_2017.1'&#10;&#10;# Conflicts:&#10;#&#9;languages/URL/URL.mpl&#10;#&#9;languages/URL/classes_gen/URL/Language.class&#10;#&#9;languages/URL/classes_gen/URL/structure/StructureAspectDescriptor.class&#10;#&#9;languages/URL/models/editor.mps&#10;#&#9;languages/URL/source_gen/URL/editor/URL_Editor.java&#10;#&#9;languages/URL/source_gen/URL/structure/StructureAspectDescriptor.java&#10;#&#9;solutions/BrowserPlugin/models/MPSBrowserPlugin/plugin.mps&#10;#&#9;solutions/Sandbox/models/Sandbox/Test.mps" />
+    <MESSAGE value="Build succesfull on 2017.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build succesfull on 2017.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin" />
@@ -1285,30 +1193,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="425">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982836" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
+    <entry file="mps://node://ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin" />
     <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
