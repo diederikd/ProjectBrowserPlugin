@@ -6,43 +6,55 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0832d75f-2c51-4b39-8276-6725b1bbcb75" name="Default" comment="Merge branch 'MPS_2017.1'&#10;&#10;# Conflicts:&#10;#&#9;languages/URL/URL.mpl&#10;#&#9;languages/URL/classes_gen/URL/Language.class&#10;#&#9;languages/URL/classes_gen/URL/structure/StructureAspectDescriptor.class&#10;#&#9;languages/URL/models/editor.mps&#10;#&#9;languages/URL/source_gen/URL/editor/URL_Editor.java&#10;#&#9;languages/URL/source_gen/URL/structure/StructureAspectDescriptor.java&#10;#&#9;solutions/BrowserPlugin/models/MPSBrowserPlugin/plugin.mps&#10;#&#9;solutions/Sandbox/models/Sandbox/Test.mps">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-BrowserPlugin-models/MPSBrowserPlugin/plugin.mpb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-ProjectBrowserPlugin.build0-models/ProjectBrowserPlugin/build0.mpb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build-src.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/BrowserPlugin/plugin/BrowserTool_Tool$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/BWBNummer_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/Context_EditorBuilder_a$linksListHandler_d0e2am_a0.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/Context_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/JCTypeC_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/JCTypeV_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/URL_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/structure/LanguageConceptSwitch.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/MPSBrowserPlugin/BrowserPlugin/plugin/BrowserTool_Tool$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/BWBNummer_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/Context_EditorBuilder_a$linksListHandler_d0e2am_a0.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/Context_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/JCTypeC_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/JCTypeV_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/URL_EditorBuilder_a.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/structure/LanguageConceptSwitch.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.build.jar/META-INF/module.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/URL-generator.jar/META-INF/module.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/classes_gen/ProjectBrowserPlugin/buildURL/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen.caches/ProjectBrowserPlugin/buildURL/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen/ProjectBrowserPlugin/buildURL/trace.info" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build.msd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/classes_gen/ProjectBrowserPlugin/build0/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/source_gen.caches/ProjectBrowserPlugin/build0/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/source_gen/ProjectBrowserPlugin/build0/trace.info" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/classes_gen/ProjectBrowserPlugin/build0/ProjectBrowserPlugin.xml" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen/ProjectBrowserPlugin/buildURL/ProjectBrowserPlugin.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/models/ProjectBrowserPlugin/build0.mps" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/models/ProjectBrowserPlugin.buildURL.mps" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/source_gen.caches/ProjectBrowserPlugin/build0/dependencies" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen.caches/ProjectBrowserPlugin/buildURL/dependencies" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build0/source_gen/ProjectBrowserPlugin/build0/ProjectBrowserPlugin.xml" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/classes_gen/ProjectBrowserPlugin/buildURL/ProjectBrowserPlugin.xml" />
+    <list default="true" id="0832d75f-2c51-4b39-8276-6725b1bbcb75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/aspectcps-descriptorclasses.mps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/checkpoints" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/aspectcps-descriptorclasses.mps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/checkpoints" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/typesystem/aspectcps-descriptorclasses.mps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/typesystem/checkpoints" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen.caches/ProjectBrowserPlugin/build/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen/ProjectBrowserPlugin/build/trace.info" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/BrowserPlugin-models/MPSBrowserPlugin/plugin.mpb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-ProjectBrowserPlugin.build0-models/ProjectBrowserPlugin/build0.mpb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.build.jar/META-INF/module.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build-src.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/BWBNummer_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/Context_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCKeyValuePaar_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCKey_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCTypeC_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCTypeV_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCType_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/JCValue_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/Link_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/URL_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/Context_Editor$linksListHandler_d0e2am_a0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/BWBNummer_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/Context_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCKeyValuePaar_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCKey_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCTypeC_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCTypeV_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCType_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/JCValue_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/Link_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/URL_BehaviorDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/Context_Editor$linksListHandler_d0e2am_a0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/classes_gen/ProjectBrowserPlugin/buildURL/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen.caches/ProjectBrowserPlugin/buildURL/generated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen/ProjectBrowserPlugin/buildURL/trace.info" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL.msd" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/ProjectBrowserPlugin.build.msd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/classes_gen/ProjectBrowserPlugin/buildURL/ProjectBrowserPlugin.xml" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/models/ProjectBrowserPlugin.buildURL.mps" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen.caches/ProjectBrowserPlugin/buildURL/dependencies" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen.caches/ProjectBrowserPlugin/build/dependencies" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.buildURL/source_gen/ProjectBrowserPlugin/buildURL/ProjectBrowserPlugin.xml" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/source_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/ProjectBrowserPlugin.zip" afterPath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/ProjectBrowserPlugin.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/editor.mpb" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/editor.mpb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/constraints.mpb" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/constraints.mpb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/structure.mpb" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/structure.mpb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/typesystem.mpb" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/languages-URL-models/typesystem.mpb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser-src.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser-src.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin-src.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin-src.jar" />
@@ -50,40 +62,47 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-generator.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-generator.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-src.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-src.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL.jar" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/BrowserPlugin/plugin/BrowserPlugin.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/BrowserPlugin/plugin/BrowserPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/BrowserPlugin/plugin/BrowserTool_Tool.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/BrowserPlugin/plugin/BrowserTool_Tool.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/Language.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/behavior/BehaviorAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/constraints/ConstraintsAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/constraints/ConstraintsAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/BWBNummer_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/BWBNummer_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/Context_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/Context_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/EditorAspectDescriptorImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/JCTypeC_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/JCTypeC_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/JCTypeV_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/JCTypeV_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/URL_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/URL_Editor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/structure/StructureAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/MPSBrowserPlugin/BrowserPlugin/plugin/BrowserPlugin.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/MPSBrowserPlugin/BrowserPlugin/plugin/BrowserPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/MPSBrowserPlugin/BrowserPlugin/plugin/BrowserTool_Tool.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/MPSBrowserPlugin/BrowserPlugin/plugin/BrowserTool_Tool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL#4536059984594152009/URL/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL#4536059984594152009/URL/generator/template/main/QueriesGenerated.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/Language.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/Language.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/behavior/BehaviorAspectDescriptor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/constraints/ConstraintsAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/constraints/ConstraintsAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/BWBNummer_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/BWBNummer_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/Context_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/Context_Editor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/EditorAspectDescriptorImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/JCTypeC_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/JCTypeC_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/JCTypeV_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/JCTypeV_Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/URL_Editor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/URL_Editor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/structure/StructureAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/Language.class" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/Language.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/EditorAspectDescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/ConceptPresentationAspectImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/QueriesGenerated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/migration.xml" afterPath="$PROJECT_DIR$/.mps/migration.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/modules.xml" afterPath="$PROJECT_DIR$/.mps/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/build.properties" afterPath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/build.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/JavaFxBrowser.jar/META-INF/module.xml" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/JavaFxBrowser.jar/META-INF/module.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/MPSBrowserPlugin.jar/META-INF/module.xml" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/MPSBrowserPlugin.jar/META-INF/module.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/META-INF/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/URL.jar/META-INF/module.xml" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/URL.jar/META-INF/module.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/URL.mpl" afterPath="$PROJECT_DIR$/languages/URL/URL.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/trace.info" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/trace.info" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/URL/generator/classes_gen/URL/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/source_gen.caches/URL/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/URL/generator/source_gen.caches/URL/generator/template/main/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/URL/generator/source_gen/URL/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/constraints.mps" afterPath="$PROJECT_DIR$/languages/URL/models/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/editor.mps" afterPath="$PROJECT_DIR$/languages/URL/models/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/structure.mps" afterPath="$PROJECT_DIR$/languages/URL/models/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/URL/models/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/constraints/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/editor/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/structure/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/typesystem/generated" afterPath="$PROJECT_DIR$/languages/URL/source_gen.caches/URL/typesystem/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/Language.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/behavior/BehaviorAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/ConstraintsAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/constraints/ConstraintsAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/editor/EditorAspectDescriptorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/ConceptPresentationAspectImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/trace.info" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/URL/source_gen/URL/trace.info" afterPath="$PROJECT_DIR$/languages/URL/source_gen/URL/trace.info" />
     </list>
     <ignored path="ProjectBrowserPlugin.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -111,7 +130,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="9ae6c831-5fc2-4821-a311-006fada1cb6e/r:11695bfd-98fb-47d4-bbdc-27ec7e1129de(TempModule9ae6c831-5fc2-4821-a311-006fada1cb6e/TempModel_99758518730557)">
+            <model ref="016875f2-d363-4c9e-8b4d-a485f53512d4/r:4d15e895-0a52-427e-99fa-5b85f09c37f7(TempModule016875f2-d363-4c9e-8b4d-a485f53512d4/TempModel_27157146555249)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -145,13 +164,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2Gja7lFVB4g">
-                <node concept="3balQm" id="2Gja7lFVB4h" role="aymYE" />
-                <node concept="2Clz$F" id="2Gja7lFVB4i" role="aymYO">
+              <node concept="aymSD" id="6CA5Kg6Uytn">
+                <node concept="3balQm" id="6CA5Kg6Uyto" role="aymYE" />
+                <node concept="2Clz$F" id="6CA5Kg6Uytp" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="2Gja7lFVB4j" role="1PhJh3">
-                  <ref role="2_V_lI" node="2Gja7lFVB4i" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="6CA5Kg6Uytq" role="1PhJh3">
+                  <ref role="2_V_lI" node="6CA5Kg6Uytp" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -176,22 +195,21 @@
       </view>
     </search_options>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ProjectBrowserPlugin" pinned="false" current-in-tab="true">
-        <entry file="mps://node://ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin">
+        <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="111">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="47" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="55" />
+                    <property name="caretXRelative" value="24" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                      <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497119" />
+                    <cellInfo cellId="Constant_q8whwb_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982838" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -199,40 +217,33 @@
                 <transactionalProperties />
                 <foldable>
                   <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982861" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
-                      <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497131" />
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982855" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982849" />
                     </cellIdElement>
                   </collapsedElement>
                   <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                      <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497132" />
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982868" />
                     </cellIdElement>
                   </collapsedElement>
                 </foldable>
-                <restoreAlways>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                      <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497132" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </restoreAlways>
+                <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497119" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982838" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_leuqor_e0" cellNumber="0" isInList="false">
-                      <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497241" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_ucemm3_b0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497119" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
+                <foldable />
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
@@ -279,9 +290,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="44" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="961" />
+    <option name="width" value="1190" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectPluginManager">
     <option name="pluginsState">
@@ -344,12 +356,22 @@
           <PluginState />
         </value>
       </option>
+      <option name="com.mbeddr.mpsutil.codereview.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="com.mbeddr.mpsutil.contextactions.runtime.plugin.Runtime_ProjectPlugin">
         <value>
           <PluginState />
         </value>
       </option>
       <option name="com.mbeddr.mpsutil.editingGuide.execution.plugin.Execution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.graphstream.runtime.plugin.Runtime_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -395,6 +417,11 @@
         </value>
       </option>
       <option name="com.mbeddr.mpsutil.projectview.vcs.plugin.Vcs_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.traceExplorer.plugin.TraceExplorer_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -502,7 +529,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -511,7 +537,37 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3916e80c-1d61-4939-8ec9-b259c24672ca" />
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -519,7 +575,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL) in IdeaFile{file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.buildURL/models/ProjectBrowserPlugin.buildURL.mps}" />
+              <option name="myItemId" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build) in IdeaFile{file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,27 +585,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3916e80c-1d61-4939-8ec9-b259c24672ca" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3916e80c-1d61-4939-8ec9-b259c24672ca" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemId" value="c6a53bd0-9627-4db5-b62a-dbc3d020d641(URL)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,7 +595,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3916e80c-1d61-4939-8ec9-b259c24672ca" />
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -567,20 +603,18 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL) in IdeaFile{file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.buildURL/models/ProjectBrowserPlugin.buildURL.mps}" />
+              <option name="myItemId" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build) in IdeaFile{file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3103869052975497100" />
+              <option name="myItemId" value="7250159923605982836" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
+      <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -588,7 +622,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mbeddr.core/code/applications/com.mbeddr.build-examples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -603,12 +637,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Build Script.ProjectBrowserPlugin">
-    <configuration default="false" name="ProjectBrowserPlugin" type="Build Script" factoryName="Build Script" singleton="true" temporary="true">
+    <configuration name="ProjectBrowserPlugin" type="Build Script" factoryName="Build Script" temporary="true">
       <MyState />
       <myNodePointer>
         <MyState>
-          <option name="myNodePointer" value="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497100" />
-          <option name="myNodeText" value="ProjectBrowserPlugin.buildURL.ProjectBrowserPlugin" />
+          <option name="myNodePointer" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982836" />
+          <option name="myNodeText" value="ProjectBrowserPlugin.build.ProjectBrowserPlugin" />
         </MyState>
       </myNodePointer>
       <mySettings>
@@ -618,24 +652,22 @@
           <option name="myAntOptions" value="" />
         </MyState>
       </mySettings>
-      <method />
     </configuration>
     <configuration default="true" type="Build Script" factoryName="Build Script">
       <MyState />
       <myNodePointer>
         <MyState>
           <option name="myNodePointer" />
-          <option name="myNodeText" />
+          <option name="myNodeText" value="" />
         </MyState>
       </myNodePointer>
       <mySettings>
         <MyState>
           <option name="myUseOtherAntLocation" value="false" />
-          <option name="myOtherAntLocation" />
-          <option name="myAntOptions" />
+          <option name="myOtherAntLocation" value="" />
+          <option name="myAntOptions" value="" />
         </MyState>
       </mySettings>
-      <method />
     </configuration>
     <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
       <MyState />
@@ -671,9 +703,6 @@
       </myJavaRunParameters>
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Build Script.ProjectBrowserPlugin" />
-    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Build Script.ProjectBrowserPlugin" />
@@ -687,54 +716,59 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="961" extended-state="6" />
+    <frame x="44" y="23" width="1190" height="959" extended-state="0" />
     <layout>
-      <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325477" sideWeight="0.45604396" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Menu Trace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.52747256" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790697" sideWeight="0.5304878" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.49676898" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26771653" sideWeight="0.55860806" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.45905924" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Chart" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26599327" sideWeight="0.43650794" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26511627" sideWeight="0.44947734" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33108866" sideWeight="0.43528694" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.47252747" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790697" sideWeight="0.4695122" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33488372" sideWeight="0.43528694" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Wetten.nl" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26771653" sideWeight="0.44599304" order="31" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.49676898" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33070865" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="26" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37484738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4337979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="27" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="28" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="29" side_tool="false" content_ui="tabs" />
-      <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Bron" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267776" sideWeight="0.49676898" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Visualiseer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Review" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Graphing" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Trace Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Browser" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37557253" sideWeight="0.44991922" order="30" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bron" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267776" sideWeight="0.49676898" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Context Actions 2" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Chart" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="26" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -835,12 +869,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'MPS_2017.1'&#10;&#10;# Conflicts:&#10;#&#9;languages/URL/URL.mpl&#10;#&#9;languages/URL/classes_gen/URL/Language.class&#10;#&#9;languages/URL/classes_gen/URL/structure/StructureAspectDescriptor.class&#10;#&#9;languages/URL/models/editor.mps&#10;#&#9;languages/URL/source_gen/URL/editor/URL_Editor.java&#10;#&#9;languages/URL/source_gen/URL/structure/StructureAspectDescriptor.java&#10;#&#9;solutions/BrowserPlugin/models/MPSBrowserPlugin/plugin.mps&#10;#&#9;solutions/Sandbox/models/Sandbox/Test.mps" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
-    <entry file="mps://node://ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
-    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin" />
-    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin" />
-    <entry file="mps://node://ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
-    <entry file="mps://node://ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
     <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin" />
     <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin" />
     <entry file="mps://node://ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
@@ -881,78 +909,8 @@
     <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin" />
     <entry file="mps://node://ProjectBrowserPlugin.build0/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
     <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
-    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c64ff51-aae1-4e29-adaf-ab320861fb8b(ProjectBrowserPlugin.build0)/4536059984594351535" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c64ff51-aae1-4e29-adaf-ab320861fb8b(ProjectBrowserPlugin.build0)/4536059984594351553" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c64ff51-aae1-4e29-adaf-ab320861fb8b(ProjectBrowserPlugin.build0)/8939611455777916999" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c64ff51-aae1-4e29-adaf-ab320861fb8b(ProjectBrowserPlugin.build0)/4536059984594351535" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c64ff51-aae1-4e29-adaf-ab320861fb8b(ProjectBrowserPlugin.build0)/4536059984594351553" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:6c64ff51-aae1-4e29-adaf-ab320861fb8b(ProjectBrowserPlugin.build0)/8939611455777916999" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
+    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
+    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
     <entry file="file://$PROJECT_DIR$/languages/URL/source_gen/URL/editor/BWBNummer_EditorBuilder_a.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -960,21 +918,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin">
+    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
+    <entry file="mps://node://MPSBrowserPlugin/MPSBrowserPlugin.plugin/MPSBrowserPlugin">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="586">
-            <selectionStack />
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/1569872169207785412" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
-            <foldable />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/1569872169207751951" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/1569872169207742602" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/1569872169207812677" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/8939611455777645639" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497119" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
-            <foldable />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_leuqor_e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497241" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ucemm3_b0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497119" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
@@ -984,18 +980,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin">
+    <entry file="mps://node://MPSBrowserPlugin/MPSBrowserPlugin.plugin/BrowserTool">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="111">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="100">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="47" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="255" />
+                <property name="caretXRelative" value="48" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497119" />
+                <cellInfo cellId="ReferencePresentation_53xyyk_a0b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/6749750758532575915" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1003,20 +999,45 @@
             <transactionalProperties />
             <foldable>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497131" />
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/6749750758532575712" />
                 </cellIdElement>
               </collapsedElement>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497132" />
+                <cellIdElement cellId="Collection_msf9u8_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/6749750758532575710" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/1569872169207559858" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/4190535063041855329" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/4190535063041876600" />
                 </cellIdElement>
               </collapsedElement>
             </foldable>
             <restoreAlways>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497132" />
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/6749750758532575712" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_msf9u8_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/6749750758532575710" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/4190535063041876600" />
                 </cellIdElement>
               </collapsedElement>
             </restoreAlways>
@@ -1037,6 +1058,303 @@
                 </cellIdElement>
               </collapsedElement>
             </foldable>
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://JavaFxBrowser/JavaFXBrowser@java_stub/SwingFXWebView">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541298" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="Stage" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541259" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541259" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="WebView" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541261" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541261" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="JFXPanel" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541263" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541263" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="WebEngine" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541267" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541267" />
+                </parent>
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/~SwingFXWebView.createScene%28%29:void" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/~SwingFXWebView.adjustHeight%28%29:void" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/~SwingFXWebView.initComponents%28%29:void" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/~SwingFXWebView.load%28%29:void" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/~SwingFXWebView.setCurrentURL%28java.lang.String%29:void" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/~SwingFXWebView.getCurrentURL%28%29:java.lang.String" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/~SwingFXWebView.&lt;init&gt;%28%29" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="00f97843-2682-489d-926d-5f451b5582a4/java:JavaFXBrowser(JavaFxBrowser/)/8393002080079541298" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_vny568_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982836" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982868" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982836" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="1369">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-427" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_y5igai_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4743026300739052425" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_kr3er8_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/1500819558096177276" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/1500819558096430320" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_kr3er8_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/1500819558096263524" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/2591537044436204156" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/2413798559262850299" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/2413798559262849243" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_dropAttrubuteRule" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732033980" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4743026300739052425" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_y5igai_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4743026300739052425" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/4743026300739052426" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin.buildURL/ProjectBrowserPlugin">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="425">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982836" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="55" />
+                <property name="caretXRelative" value="24" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_q8whwb_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982838" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982861" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982855" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ju7sd7_e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982849" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982868" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982838" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />

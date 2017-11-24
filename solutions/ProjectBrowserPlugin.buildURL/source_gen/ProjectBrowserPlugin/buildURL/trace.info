@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2">
-  <root nodeRef="r:42558f4e-aa8f-4b0c-8dc8-64c8b0ec915c(ProjectBrowserPlugin.buildURL)/3103869052975497100">
-    <file name="ProjectBrowserPlugin.xml">
-      <unit id="3103869052975497100" at="1,0,556,10" name="ProjectBrowserPlugin.buildURL.ProjectBrowserPlugin" />
-    </file>
-  </root>
-</debug-info>
-

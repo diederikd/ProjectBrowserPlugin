@@ -4,21 +4,21 @@ package URL.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptPresentationAspectBase;
 import jetbrains.mps.smodel.runtime.ConceptPresentation;
-import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
+import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
-  private final ConceptPresentation props_BWBNummer = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_Context = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_JCKey = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_JCKeyValuePaar = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_JCType = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_JCTypeC = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_JCTypeV = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_JCValue = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_Link = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_URL = new ConceptPresentationBuilder().create();
+  private ConceptPresentation props_BWBNummer;
+  private ConceptPresentation props_Context;
+  private ConceptPresentation props_JCKey;
+  private ConceptPresentation props_JCKeyValuePaar;
+  private ConceptPresentation props_JCType;
+  private ConceptPresentation props_JCTypeC;
+  private ConceptPresentation props_JCTypeV;
+  private ConceptPresentation props_JCValue;
+  private ConceptPresentation props_Link;
+  private ConceptPresentation props_URL;
 
   @Override
   @Nullable
@@ -26,24 +26,72 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
       case LanguageConceptSwitch.BWBNummer:
+        if (props_BWBNummer == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("BWBNummer");
+          props_BWBNummer = cpb.create();
+        }
         return props_BWBNummer;
       case LanguageConceptSwitch.Context:
+        if (props_Context == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("voor test doeleinden");
+          props_Context = cpb.create();
+        }
         return props_Context;
       case LanguageConceptSwitch.JCKey:
+        if (props_JCKey == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("JCKey");
+          props_JCKey = cpb.create();
+        }
         return props_JCKey;
       case LanguageConceptSwitch.JCKeyValuePaar:
+        if (props_JCKeyValuePaar == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("JCKeyValuePaar");
+          props_JCKeyValuePaar = cpb.create();
+        }
         return props_JCKeyValuePaar;
       case LanguageConceptSwitch.JCType:
+        if (props_JCType == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_JCType = cpb.create();
+        }
         return props_JCType;
       case LanguageConceptSwitch.JCTypeC:
+        if (props_JCTypeC == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("een verwijzing naar een enkele consolidatie");
+          props_JCTypeC = cpb.create();
+        }
         return props_JCTypeC;
       case LanguageConceptSwitch.JCTypeV:
+        if (props_JCTypeV == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("een verwijzing naar een verzameling van consolidaties");
+          props_JCTypeV = cpb.create();
+        }
         return props_JCTypeV;
       case LanguageConceptSwitch.JCValue:
+        if (props_JCValue == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("JCValue");
+          props_JCValue = cpb.create();
+        }
         return props_JCValue;
       case LanguageConceptSwitch.Link:
+        if (props_Link == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_Link = cpb.create();
+        }
         return props_Link;
       case LanguageConceptSwitch.URL:
+        if (props_URL == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("URL");
+          props_URL = cpb.create();
+        }
         return props_URL;
     }
     return null;
