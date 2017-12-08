@@ -35,9 +35,10 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>ProjectBrowserPlugin</id>
         <name>ProjectBrowserPlugin</name>
-        <version>1.0</version>
+        <version>2017.2</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.jetpad</depends>
+        <depends>jetbrains.mps.build</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -205,6 +206,36 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-URL-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-URL-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/ProjectBrowserPlugin.build.jar" />
+    <mkdir dir="${build.tmp}/default/ProjectBrowserPlugin.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/ProjectBrowserPlugin.build.jar/META-INF/module.xml">
+      <module namespace="ProjectBrowserPlugin.build" type="solution" uuid="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34">
+        <dependencies />
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="ProjectBrowserPlugin.build-src.jar" descriptor="ProjectBrowserPlugin.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/ProjectBrowserPlugin.build" />
+      <fileset dir="${basedir}/solutions/ProjectBrowserPlugin.build" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/solutions/ProjectBrowserPlugin.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/ProjectBrowserPlugin.build.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-ProjectBrowserPlugin.build-models">
+      <fileset dir="${basedir}/solutions/ProjectBrowserPlugin.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/solutions/ProjectBrowserPlugin.build/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/ProjectBrowserPlugin.build/ProjectBrowserPlugin.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-ProjectBrowserPlugin.build-models" prefix="module/models" />
+    </jar>
     <zip destfile="${build.layout}/ProjectBrowserPlugin.zip">
       <zipfileset file="${jar.home}/BrowserPlugin.jar" prefix="ProjectBrowserPlugin" />
       <fileset dir="${build.tmp}/default/ProjectBrowserPlugin.zip" />
@@ -223,7 +254,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.MPSBrowserPlugin, java.compile.JavaFxBrowser, java.compile.URL, java.compile.URL#4536059984594152009" />
+  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.MPSBrowserPlugin, java.compile.JavaFxBrowser, java.compile.URL, java.compile.URL#4536059984594152009, java.compile.ProjectBrowserPlugin.build" />
   
   <target name="processResources" />
   
@@ -237,6 +268,7 @@
     <echo message="generating" />
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true">
       <plugin path="${artifacts.mps}/plugins/jetpad" />
+      <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -292,6 +324,8 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.util.order.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.refactoring.participant.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.reduced.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.tool.gentest.jar" />
       <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
       <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <library file="${artifacts.mps}/lib/mps-behavior-api.jar" />
@@ -300,15 +334,24 @@
       <library file="${artifacts.mps}/lib/mps-collections.jar" />
       <library file="${artifacts.mps}/lib/mps-core.jar" />
       <library file="${artifacts.mps}/lib/mps-editor.jar" />
+      <library file="${artifacts.mps}/lib/mps-environment.jar" />
       <library file="${artifacts.mps}/lib/mps-openapi.jar" />
       <library file="${artifacts.mps}/lib/mps-platform.jar" />
+      <library file="${artifacts.mps}/lib/mps-stubs.jar" />
+      <library file="${artifacts.mps}/lib/mps-test.jar" />
+      <library file="${artifacts.mps}/lib/mps-tool.jar" />
       <library file="${artifacts.mps}/lib/mps-tuples.jar" />
       <library file="${artifacts.mps}/lib/mps-workbench.jar" />
       <library file="${artifacts.mps}/plugins/jetpad/languages/jetpad/jetbrains.jetpad.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
         <module file="${basedir}/solutions/JavaFxBrowser/JavaFxBrowser.msd" />
         <module file="${basedir}/solutions/BrowserPlugin/MPSBrowserPlugin.msd" />
+        <module file="${basedir}/solutions/ProjectBrowserPlugin.build/ProjectBrowserPlugin.build.msd" />
         <module file="${basedir}/languages/URL/URL.mpl" />
       </chunk>
       <chunk />
@@ -548,9 +591,22 @@
     </javac>
   </target>
   
+  <target name="java.compile.ProjectBrowserPlugin.build">
+    <mkdir dir="${basedir}/solutions/ProjectBrowserPlugin.build/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/ProjectBrowserPlugin.build" />
+    <javac destdir="${build.tmp}/java/out/ProjectBrowserPlugin.build" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/solutions/ProjectBrowserPlugin.build/source_gen" />
+      </src>
+      <classpath />
+    </javac>
+  </target>
+  
   <target name="cleanSources">
     <delete dir="${jar.home}/source_gen" />
     <delete dir="${basedir}/solutions/BrowserPlugin/source_gen" />
+    <delete dir="${basedir}/solutions/ProjectBrowserPlugin.build/source_gen" />
     <delete dir="${basedir}/languages/URL/source_gen" />
     <delete dir="${basedir}/languages/URL/generator/source_gen" />
   </target>

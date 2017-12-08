@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module namespace="ProjectBrowserPlugin.build" type="solution" uuid="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34">
+  <dependencies />
+  <classpath>
+    <entry path="." />
+  </classpath>
+  <sources descriptor="ProjectBrowserPlugin.build.msd" jar="ProjectBrowserPlugin.build-src.jar" />
+</module>

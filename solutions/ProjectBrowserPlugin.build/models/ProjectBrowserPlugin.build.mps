@@ -169,7 +169,7 @@
       </node>
       <node concept="3_J27D" id="6itJwArjGUo" role="m$_w8">
         <node concept="3Mxwew" id="6itJwArjGUp" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
+          <property role="3MwjfP" value="2017.2" />
         </node>
       </node>
       <node concept="m$f5U" id="6itJwArjGUq" role="m$_yh">
@@ -180,6 +180,9 @@
       </node>
       <node concept="m$_yC" id="6itJwArjOoE" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:25y4WSoTpUm" resolve="jetbrains.jetpad" />
+      </node>
+      <node concept="m$_yC" id="7dhn0RdxK8G" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="3_J27D" id="6itJwArjGUs" role="m_cZH">
         <node concept="3Mxwew" id="6itJwArjGUt" role="3MwsjC">
@@ -313,6 +316,29 @@
           <property role="TrG5h" value="URL#4536059984594152009" />
           <property role="3LESm3" value="fb539306-8c75-47b4-ad75-b0240c2143cc" />
           <property role="2GAjPV" value="false" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="7dhn0RdxawI" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="ProjectBrowserPlugin.build" />
+        <property role="3LESm3" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="7dhn0RdxawD" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7dhn0RdxawE" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="7dhn0RdxawF" role="2Ry0An">
+              <property role="2Ry0Am" value="ProjectBrowserPlugin.build" />
+              <node concept="2Ry0Ak" id="7dhn0RdxawG" role="2Ry0An">
+                <property role="2Ry0Am" value="ProjectBrowserPlugin.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7dhn0Rdxax2" role="3bR37C">
+          <node concept="3bR9La" id="7dhn0Rdxax3" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
         </node>
       </node>
     </node>
