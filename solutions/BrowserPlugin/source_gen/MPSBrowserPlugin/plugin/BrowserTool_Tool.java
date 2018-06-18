@@ -39,7 +39,7 @@ public class BrowserTool_Tool extends GeneratedTool {
         for (Component component : BrowserTool_Tool.this.jp.getComponents()) {
           if (component instanceof SwingFXWebView) {
             BrowserTool_Tool.this.fxWebView = (SwingFXWebView) component;
-            BrowserTool_Tool.this.fxWebView.setCurrentURL("http://wetten.overheid.nl/jci1.3:c:BWBR0011173&artikel=1&z=2000-07-01&g=2000-07-01");
+            BrowserTool_Tool.this.fxWebView.setCurrentURL("http://wetten.overheid.nl/");
             BrowserTool_Tool.this.fxWebView.load();
           }
         }

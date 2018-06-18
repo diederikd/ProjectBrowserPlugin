@@ -441,7 +441,7 @@
                                   <node concept="liA8E" id="5QFVCQsKvb6" role="2OqNvi">
                                     <ref role="37wK5l" to="f7jo:~SwingFXWebView.setCurrentURL(java.lang.String):void" resolve="setCurrentURL" />
                                     <node concept="Xl_RD" id="5QFVCQsKvb7" role="37wK5m">
-                                      <property role="Xl_RC" value="http://wetten.overheid.nl/jci1.3:c:BWBR0011173&amp;artikel=1&amp;z=2000-07-01&amp;g=2000-07-01" />
+                                      <property role="Xl_RC" value="http://wetten.overheid.nl/" />
                                     </node>
                                   </node>
                                 </node>

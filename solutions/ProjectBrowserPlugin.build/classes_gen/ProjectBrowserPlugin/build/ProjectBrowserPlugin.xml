@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/ProjectBrowserPlugin" />
   <property name="build.layout" location="${build.dir}/artifacts/ProjectBrowserPlugin" />
-  <property name="mps_home" location="" />
+  <property name="mps_home" location="${basedir}/../../../../Applications/MPS 2018.1.app/Contents" />
   <property name="imagespath" location="" />
   <property name="mbeddr.github.core.home" location="" />
   <property name="jar.home" location="${basedir}/solutions/JavaFxBrowser" />
