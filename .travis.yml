@@ -3,4 +3,11 @@ jdk:
 - oraclejdk8
 before_install: wget https://download-cf.jetbrains.com/mps/2018.1/MPS-2018.1.zip
 install: unzip MPS-2018.1.zip
-script: ant -Dmps_home=./MPS\ 2018.1
+script: ant -Dmps_home=./MPS\ 2018.1 
+deploy:
+  provider: releases
+  api_key:
+    secure: VYvGLjvISxqdkR9dwQ8c3dQRMKaljnoQdn8BcT7xFnthTLRuWb9mulR9U6kSmGjFj8FKx4Y8Gu6uCFUqzg6PyyPIKr87q1nfLjboMzQJpikIaVAFjLFGZDwA8YCoyTmqjn+wCwVTwxp0MJrZh2gjjhOcCt2GAK6IB8FmciXrh7CKr1DFVhpVo+64fqiFUR+OPsf2mMlTedauj3PGzHDmfIPUC+flCHSrXTRFn5BHraGy+mx/6tdrjkoLSF1Hn0xXPZaP1xf7Dm/BJdoMKcks5/rULrk5GwZ5XDQAEIbAlAknxIWKU7Nn1FmuF31jCSdUUu47mV+MYdNsw4wxjO/OetUbUnxyTvCPnakQDulTSVnxSrF5UH8304hE8Qote2qNzuuSdtJlzcOUpA09zT5GH2A+ShUllCXo58xkQELq2ON+q38/iyedBZAvu8KldwdCBh1vTx+oDPYeFO/mEQVjcBDZez0Mf3BxS9d6fgHXj0OwmH1QW/W97JMbOU+x82IX6EOsEygY3gs/ALUDOnPH9smxDjNh317hIvaSWeykLYnQH6DISwVVxIJRsy1Ud5FuKLayTQLj/5NG/oWhTPWAn7PjHdQ2HUHFSzFx98uAzjxLWCPj8K3TM/Joxmpp8Hu+gpjcWHDqo+MzyssM4HikI6ZSfMFubM9OjmtHEjmrw+A=
+  file: ProjectBrowserPlugin.zip
+  on:
+    repo: diederikd/ProjectBrowserPlugin
