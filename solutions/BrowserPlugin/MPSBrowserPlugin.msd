@@ -12,6 +12,7 @@
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">c6a53bd0-9627-4db5-b62a-dbc3d020d641(URL)</dependency>
     <dependency reexport="false">00f97843-2682-489d-926d-5f451b5582a4(JavaFxBrowser)</dependency>
+    <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
@@ -39,6 +40,7 @@
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="ada0a25c-94c6-46b2-be8d-bf541ae59769(MPSBrowserPlugin)" version="0" />
     <module reference="c6a53bd0-9627-4db5-b62a-dbc3d020d641(URL)" version="0" />
+    <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
   </dependencyVersions>
 </solution>

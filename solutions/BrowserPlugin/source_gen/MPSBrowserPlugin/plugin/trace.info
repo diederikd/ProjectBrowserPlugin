@@ -8,13 +8,15 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/1569872169207638341">
     <file name="MPSBrowserPlugin.java">
-      <node id="1569872169207786028" at="9,0,10,0" concept="9" trace="project" />
-      <node id="1569872169207785412" at="10,0,11,0" concept="9" trace="browsertool" />
+      <node id="1569872169207786028" at="9,0,10,0" concept="10" trace="project" />
+      <node id="1569872169207785412" at="10,0,11,0" concept="10" trace="browsertool" />
       <node id="1569872169207743586" at="14,70,15,25" concept="1" />
       <node id="1569872169207771370" at="15,25,16,23" concept="1" />
       <node id="1569872169207777660" at="18,31,19,26" concept="1" />
@@ -35,14 +37,109 @@
       <unit id="1569872169207638341" at="8,0,22,0" name="MPSBrowserPlugin.plugin.MPSBrowserPlugin" />
     </file>
   </root>
+  <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/2671382829206290196">
+    <file name="SwingMPSFXWebView.java">
+      <node id="2671382829206290222" at="17,0,18,0" concept="2" trace="browser" />
+      <node id="2671382829206290226" at="18,0,19,0" concept="2" trace="jfxPanel" />
+      <node id="2671382829206290234" at="19,0,20,0" concept="2" trace="webEngine" />
+      <node id="2671382829206290238" at="20,0,21,0" concept="2" trace="CurrentURL" />
+      <node id="2671382829206290262" at="22,30,23,21" concept="1" />
+      <node id="2671382829206290245" at="25,33,26,22" concept="7" />
+      <node id="2671382829206290253" at="28,41,29,21" concept="1" />
+      <node id="2671382829206393851" at="34,25,35,35" concept="1" />
+      <node id="2671382829206290284" at="39,33,40,30" concept="1" />
+      <node id="2671382829206290288" at="40,30,41,18" concept="1" />
+      <node id="2671382829206290290" at="41,18,42,34" concept="1" />
+      <node id="2671382829206290293" at="42,34,43,39" concept="1" />
+      <node id="2671382829206402958" at="48,13,49,99" concept="6" />
+      <node id="2671382829206402970" at="50,42,51,41" concept="6" />
+      <node id="2671382829206402976" at="51,41,52,42" concept="6" />
+      <node id="2671382829206402982" at="52,42,53,33" concept="1" />
+      <node id="2671382829206402988" at="53,33,54,42" concept="1" />
+      <node id="2671382829206402993" at="54,42,55,36" concept="1" />
+      <node id="2671382829206523142" at="71,25,72,20" concept="6" />
+      <node id="2671382829206290365" at="72,20,73,28" concept="1" />
+      <node id="2671382829206290369" at="73,28,74,33" concept="1" />
+      <node id="2671382829206290416" at="74,33,75,40" concept="8" />
+      <node id="2671382829206290372" at="75,40,76,32" concept="1" />
+      <node id="2671382829206290376" at="76,32,77,40" concept="1" />
+      <node id="2671382829206290380" at="77,40,78,35" concept="1" />
+      <node id="2671382829206290384" at="78,35,79,41" concept="6" />
+      <node id="2671382829206290387" at="79,41,80,40" concept="1" />
+      <node id="2671382829206290393" at="80,40,81,38" concept="6" />
+      <node id="2671382829206290418" at="81,38,82,51" concept="8" />
+      <node id="2671382829206290420" at="82,51,83,27" concept="8" />
+      <node id="2671382829206290397" at="83,27,84,33" concept="1" />
+      <node id="2671382829206425252" at="88,21,89,31" concept="1" />
+      <node id="2671382829206587102" at="22,0,25,0" concept="0" trace="SwingMPSFXWebView#()V" />
+      <node id="2671382829206290243" at="25,0,28,0" concept="5" trace="getCurrentURL#()Ljava/lang/String;" />
+      <node id="2671382829206290249" at="28,0,31,0" concept="5" trace="setCurrentURL#(Ljava/lang/String;)V" />
+      <node id="2671382829206425248" at="88,0,91,0" concept="5" trace="run#()V" />
+      <node id="2671382829206635671" at="33,0,37,0" concept="5" trace="run#()V" />
+      <node id="2671382829206630447" at="31,22,37,7" concept="1" />
+      <node id="2671382829206290282" at="39,0,45,0" concept="5" trace="initComponents#()V" />
+      <node id="2671382829206402965" at="49,99,56,11" concept="4" />
+      <node id="2671382829206290265" at="31,0,39,0" concept="5" trace="load#()V" />
+      <node id="2671382829206402952" at="47,25,58,9" concept="12" />
+      <node id="2671382829206651695" at="47,0,60,0" concept="5" trace="run#()V" />
+      <node id="2671382829206642996" at="45,31,60,7" concept="1" />
+      <node id="2671382829206676996" at="71,0,86,0" concept="5" trace="run#()V" />
+      <node id="2671382829206290299" at="45,0,62,0" concept="5" trace="adjustHeight#()V" />
+      <node id="2671382829206671060" at="69,30,86,7" concept="1" />
+      <node id="2671382829206290355" at="69,0,88,0" concept="5" trace="createScene#()V" />
+      <scope id="2671382829206402953" at="57,0,57,33">
+        <var name="e" id="2671382829206402955" />
+      </scope>
+      <scope id="2671382829206402954" at="57,33,57,33" />
+      <scope id="2671382829206587105" at="22,30,23,21" />
+      <scope id="2671382829206290244" at="25,33,26,22" />
+      <scope id="2671382829206290252" at="28,41,29,21" />
+      <scope id="2671382829206635675" at="34,25,35,35" />
+      <scope id="2671382829206425251" at="88,21,89,31" />
+      <scope id="2671382829206587102" at="22,0,25,0" />
+      <scope id="2671382829206290243" at="25,0,28,0" />
+      <scope id="2671382829206290249" at="28,0,31,0">
+        <var name="url" id="2671382829206290250" />
+      </scope>
+      <scope id="2671382829206425248" at="88,0,91,0" />
+      <scope id="2671382829206635671" at="33,0,37,0" />
+      <scope id="2671382829206290283" at="39,33,43,39" />
+      <scope id="2671382829206402969" at="50,42,55,36">
+        <var name="height" id="2671382829206402977" />
+        <var name="i" id="2671382829206402971" />
+      </scope>
+      <scope id="2671382829206290266" at="31,22,37,7" />
+      <scope id="2671382829206290282" at="39,0,45,0" />
+      <scope id="2671382829206290265" at="31,0,39,0" />
+      <scope id="2671382829206402957" at="48,13,56,11">
+        <var name="result" id="2671382829206402959" />
+      </scope>
+      <scope id="2671382829206651699" at="47,25,58,9" />
+      <scope id="2671382829206651695" at="47,0,60,0" />
+      <scope id="2671382829206677000" at="71,25,84,33">
+        <var name="pane" id="2671382829206290383" />
+        <var name="scene" id="2671382829206290392" />
+        <var name="stage" id="2671382829206523143" />
+      </scope>
+      <scope id="2671382829206290300" at="45,31,60,7" />
+      <scope id="2671382829206676996" at="71,0,86,0" />
+      <scope id="2671382829206290299" at="45,0,62,0" />
+      <scope id="2671382829206290356" at="69,30,86,7" />
+      <scope id="2671382829206290355" at="69,0,88,0" />
+      <unit id="2671382829206635669" at="32,26,37,5" name="MPSBrowserPlugin.plugin.SwingMPSFXWebView$1" />
+      <unit id="2671382829206651693" at="46,26,60,5" name="MPSBrowserPlugin.plugin.SwingMPSFXWebView$2" />
+      <unit id="2671382829206676994" at="70,26,86,5" name="MPSBrowserPlugin.plugin.SwingMPSFXWebView$3" />
+      <unit id="2671382829206290196" at="16,0,92,0" name="MPSBrowserPlugin.plugin.SwingMPSFXWebView" />
+    </file>
+  </root>
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/4190535063041855328">
     <file name="BrowserTool_Tool.java">
-      <node id="4190535063041855328" at="23,0,24,0" concept="9" trace="ICON" />
+      <node id="4190535063041855328" at="23,0,24,0" concept="10" trace="ICON" />
       <node id="5063423476139030613" at="24,0,25,0" concept="2" trace="projectvar" />
       <node id="4190535063041856034" at="25,0,26,0" concept="2" trace="jp" />
       <node id="6638639422340962742" at="26,0,27,0" concept="2" trace="fxWebView" />
       <node id="4536059984594307982" at="27,0,28,0" concept="2" trace="browserPlugin" />
-      <node id="4190535063041855328" at="28,44,29,218" concept="10" />
+      <node id="4190535063041855328" at="28,44,29,218" concept="11" />
       <node id="4190535063041855328" at="31,37,32,24" concept="1" />
       <node id="6749750758532575893" at="34,25,35,51" concept="1" />
       <node id="4536059984594327417" at="35,51,36,99" concept="1" />
@@ -53,7 +150,7 @@
       <node id="6749750758532575944" at="42,88,43,51" concept="1" />
       <node id="6749750758532575951" at="45,9,46,46" concept="1" />
       <node id="6749750758532598875" at="48,6,49,39" concept="1" />
-      <node id="6749750758532602696" at="49,39,50,0" concept="8" />
+      <node id="6749750758532602696" at="49,39,50,0" concept="9" />
       <node id="1569872169207563632" at="52,31,53,208" concept="1" />
       <node id="1569872169207577923" at="53,208,54,43" concept="1" />
       <node id="4190535063041878142" at="56,36,57,36" concept="7" />

@@ -35,5 +35,23 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode extendsClassName="jetbrains.mps.plugins.projectplugins.BaseProjectPlugin" />
   </dependency>
+  <dependency className="MPSBrowserPlugin.plugin.SwingMPSFXWebView" file="SwingMPSFXWebView.java">
+    <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Runnable" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javafx.application.Platform" />
+    <classNode dependClassName="javafx.embed.swing.JFXPanel" />
+    <classNode dependClassName="javafx.scene.Scene" />
+    <classNode dependClassName="javafx.scene.layout.StackPane" />
+    <classNode dependClassName="javafx.scene.web.WebEngine" />
+    <classNode dependClassName="javafx.scene.web.WebView" />
+    <classNode dependClassName="javafx.stage.Stage" />
+    <classNode dependClassName="netscape.javascript.JSException" />
+    <classNode extendsClassName="javax.swing.JPanel" />
+  </dependency>
 </dependenciesRoot>
 

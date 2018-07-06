@@ -2,7 +2,7 @@
 <debug-info version="2">
   <root nodeRef="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982836">
     <file name="ProjectBrowserPlugin.xml">
-      <unit id="7250159923605982836" at="1,0,610,10" name="ProjectBrowserPlugin.build.ProjectBrowserPlugin" />
+      <unit id="7250159923605982836" at="1,0,611,10" name="ProjectBrowserPlugin.build.ProjectBrowserPlugin" />
     </file>
   </root>
 </debug-info>

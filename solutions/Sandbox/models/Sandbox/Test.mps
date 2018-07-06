@@ -19,6 +19,12 @@
     <node concept="24H7r1" id="3VNkCntAEYt" role="1k0ehk">
       <property role="1k0emI" value="http://wetten.overheid.nl/zoeken" />
     </node>
+    <node concept="24H7r1" id="3F$vNgoX73v" role="1k0ehk">
+      <property role="1k0emI" value="http://www.google.nl" />
+    </node>
+    <node concept="24H7r1" id="3F$vNgoX73B" role="1k0ehk">
+      <property role="1k0emI" value="http://wetten.overheid.nl/jci1.3:c:BWBR0011353&amp;hoofdstuk=3&amp;afdeling=3.14&amp;artikel=3.154&amp;lid=1" />
+    </node>
   </node>
 </model>
 

@@ -2,7 +2,8 @@
 <idea-plugin>
   <id>ProjectBrowserPlugin</id>
   <name>ProjectBrowserPlugin</name>
-  <version>2017.3</version>
+  <version>2018.1</version>
+  <vendor url="www.dulfer.info">dulfer.info</vendor>
   <depends>jetbrains.mps.core</depends>
   <depends>jetbrains.jetpad</depends>
   <depends>jetbrains.mps.build</depends>
