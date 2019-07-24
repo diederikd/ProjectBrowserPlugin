@@ -1,9 +1,14 @@
 language: java
 jdk:
 - openjdk8
-before_install: wget https://download-cf.jetbrains.com/mps/2019.1/MPS-2019.1.zip
-install: unzip MPS-2019.1.zip
-script: ant -Dmps_home=./MPS\ 2019.1
+before_install:
+- wget https://download-cf.jetbrains.com/mps/2019.1/MPS-2019.1.zip
+- wget https://github.com/JetBrains/MPS-extensions/releases/download/nightly-2019.1.1037.4955bbc/de.itemis.mps.extensions-2019.1.1037.4955bbc.zip
+install:
+- unzip MPS-2019.1.zip
+- unzip de.itemis.mps.extensions-2019.1.1037.4955bbc.zip
+script:
+- ant -Dmps_home=./MPS\ 2019.1 -Dmbeddr_home=./plugins -Dextensions_home=./de.itemis.mps.extensions clean generate assemble
 before_deploy:
       # Set up git user name and tag this commit
       - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
