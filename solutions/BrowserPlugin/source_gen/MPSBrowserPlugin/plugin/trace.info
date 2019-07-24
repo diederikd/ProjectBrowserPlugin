@@ -9,32 +9,29 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/1569872169207638341">
     <file name="MPSBrowserPlugin.java">
-      <node id="1569872169207786028" at="9,0,10,0" concept="10" trace="project" />
-      <node id="1569872169207785412" at="10,0,11,0" concept="10" trace="browsertool" />
-      <node id="1569872169207743586" at="14,70,15,25" concept="1" />
-      <node id="1569872169207771370" at="15,25,16,23" concept="1" />
-      <node id="1569872169207777660" at="18,31,19,26" concept="1" />
-      <node id="1569872169207812677" at="12,0,14,0" concept="0" trace="MPSBrowserPlugin#()V" />
-      <node id="1569872169207751951" at="18,0,21,0" concept="5" trace="load#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1569872169207742602" at="14,0,18,0" concept="0" trace="MPSBrowserPlugin#(Lcom/intellij/openapi/project/Project;LMPSBrowserPlugin/plugin/BrowserTool_Tool;)V" />
-      <scope id="1569872169207812680" at="12,29,12,29" />
-      <scope id="1569872169207751954" at="18,31,19,26" />
-      <scope id="1569872169207812677" at="12,0,14,0" />
-      <scope id="1569872169207742605" at="14,70,16,23" />
-      <scope id="1569872169207751951" at="18,0,21,0">
-        <var name="url" id="1569872169207752769" />
-      </scope>
-      <scope id="1569872169207742602" at="14,0,18,0">
+      <node id="1569872169207785412" at="9,0,10,0" concept="9" trace="browsertool" />
+      <node id="1569872169207771370" at="13,70,14,23" concept="1" />
+      <node id="1569872169207777660" at="16,31,17,26" concept="1" />
+      <node id="1569872169207812677" at="11,0,13,0" concept="0" trace="MPSBrowserPlugin#()V" />
+      <node id="1569872169207742602" at="13,0,16,0" concept="0" trace="MPSBrowserPlugin#(Lcom/intellij/openapi/project/Project;LMPSBrowserPlugin/plugin/BrowserTool_Tool;)V" />
+      <node id="1569872169207751951" at="16,0,19,0" concept="5" trace="load#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1569872169207812680" at="11,29,11,29" />
+      <scope id="1569872169207742605" at="13,70,14,23" />
+      <scope id="1569872169207751954" at="16,31,17,26" />
+      <scope id="1569872169207812677" at="11,0,13,0" />
+      <scope id="1569872169207742602" at="13,0,16,0">
         <var name="mpsProject" id="1569872169207742629" />
         <var name="tool" id="1569872169207767934" />
       </scope>
-      <unit id="1569872169207638341" at="8,0,22,0" name="MPSBrowserPlugin.plugin.MPSBrowserPlugin" />
+      <scope id="1569872169207751951" at="16,0,19,0">
+        <var name="url" id="1569872169207752769" />
+      </scope>
+      <unit id="1569872169207638341" at="8,0,20,0" name="MPSBrowserPlugin.plugin.MPSBrowserPlugin" />
     </file>
   </root>
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/2671382829206290196">
@@ -80,7 +77,7 @@
       <node id="2671382829206290282" at="39,0,45,0" concept="5" trace="initComponents#()V" />
       <node id="2671382829206402965" at="49,99,56,11" concept="4" />
       <node id="2671382829206290265" at="31,0,39,0" concept="5" trace="load#()V" />
-      <node id="2671382829206402952" at="47,25,58,9" concept="12" />
+      <node id="2671382829206402952" at="47,25,58,9" concept="11" />
       <node id="2671382829206651695" at="47,0,60,0" concept="5" trace="run#()V" />
       <node id="2671382829206642996" at="45,31,60,7" concept="1" />
       <node id="2671382829206676996" at="71,0,86,0" concept="5" trace="run#()V" />
@@ -134,12 +131,12 @@
   </root>
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/4190535063041855328">
     <file name="BrowserTool_Tool.java">
-      <node id="4190535063041855328" at="23,0,24,0" concept="10" trace="ICON" />
+      <node id="4190535063041855328" at="23,0,24,0" concept="9" trace="ICON" />
       <node id="5063423476139030613" at="24,0,25,0" concept="2" trace="projectvar" />
       <node id="4190535063041856034" at="25,0,26,0" concept="2" trace="jp" />
       <node id="6638639422340962742" at="26,0,27,0" concept="2" trace="fxWebView" />
       <node id="4536059984594307982" at="27,0,28,0" concept="2" trace="browserPlugin" />
-      <node id="4190535063041855328" at="28,44,29,218" concept="11" />
+      <node id="4190535063041855328" at="28,44,29,216" concept="10" />
       <node id="4190535063041855328" at="31,37,32,24" concept="1" />
       <node id="6749750758532575893" at="34,25,35,51" concept="1" />
       <node id="4536059984594327417" at="35,51,36,99" concept="1" />
@@ -150,49 +147,63 @@
       <node id="6749750758532575944" at="42,88,43,51" concept="1" />
       <node id="6749750758532575951" at="45,9,46,46" concept="1" />
       <node id="6749750758532598875" at="48,6,49,39" concept="1" />
-      <node id="6749750758532602696" at="49,39,50,0" concept="9" />
-      <node id="1569872169207563632" at="52,31,53,208" concept="1" />
-      <node id="1569872169207577923" at="53,208,54,43" concept="1" />
-      <node id="4190535063041878142" at="56,36,57,36" concept="7" />
+      <node id="3087529179533047924" at="51,25,52,47" concept="1" />
+      <node id="4190535063041855328" at="52,47,53,20" concept="1" />
+      <node id="1569872169207563632" at="57,25,58,212" concept="1" />
+      <node id="1569872169207577923" at="58,212,59,47" concept="1" />
+      <node id="7446079616378506814" at="61,6,62,39" concept="1" />
+      <node id="4190535063041878142" at="64,36,65,36" concept="7" />
       <node id="4190535063041855328" at="28,0,31,0" concept="0" trace="BrowserTool_Tool#(Lcom/intellij/openapi/project/Project;)V" />
-      <node id="4190535063041855328" at="56,0,59,0" concept="5" trace="getComponent#()Ljavax/swing/JComponent;" />
-      <node id="1569872169207559858" at="52,0,56,0" concept="5" trace="load#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4190535063041855328" at="64,0,67,0" concept="5" trace="getComponent#()Ljavax/swing/JComponent;" />
+      <node id="4190535063041855328" at="51,0,55,0" concept="5" trace="dispose#()V" />
+      <node id="7446079616378503992" at="57,0,61,0" concept="5" trace="run#()V" />
       <node id="6749750758532575924" at="39,78,44,11" concept="4" />
+      <node id="7446079616378482806" at="55,37,61,6" concept="6" />
       <node id="6749750758532575916" at="38,59,45,9" concept="3" />
+      <node id="1569872169207559858" at="55,0,64,0" concept="5" trace="load#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6749750758532575712" at="34,0,48,0" concept="5" trace="run#()V" />
       <node id="6749750758532532469" at="32,24,48,6" concept="6" />
-      <node id="4190535063041855328" at="31,0,52,0" concept="5" trace="init#(Lcom/intellij/openapi/project/Project;)V" />
-      <scope id="4190535063041855328" at="28,44,29,218" />
-      <scope id="4190535063041855330" at="56,36,57,36" />
-      <scope id="1569872169207559860" at="52,31,54,43" />
+      <node id="4190535063041855328" at="31,0,51,0" concept="5" trace="init#(Lcom/intellij/openapi/project/Project;)V" />
+      <scope id="4190535063041855328" at="28,44,29,216" />
+      <scope id="4190535063041855330" at="64,36,65,36" />
+      <scope id="4190535063041855328" at="51,25,53,20" />
+      <scope id="7446079616378503996" at="57,25,59,47" />
       <scope id="4190535063041855328" at="28,0,31,0">
         <var name="project" id="4190535063041855328" />
       </scope>
       <scope id="6749750758532575928" at="40,52,43,51" />
-      <scope id="4190535063041855328" at="56,0,59,0" />
-      <scope id="1569872169207559858" at="52,0,56,0">
-        <var name="url" id="1569872169207561913" />
-      </scope>
+      <scope id="4190535063041855328" at="64,0,67,0" />
+      <scope id="4190535063041855328" at="51,0,55,0" />
+      <scope id="7446079616378503992" at="57,0,61,0" />
       <scope id="6749750758532575923" at="39,78,44,11" />
       <scope id="6749750758532575916" at="38,59,45,9">
         <var name="component" id="6749750758532575917" />
       </scope>
+      <scope id="1569872169207559860" at="55,37,62,39">
+        <var name="r" id="7446079616378482807" />
+      </scope>
+      <scope id="1569872169207559858" at="55,0,64,0">
+        <var name="url" id="1569872169207561913" />
+      </scope>
       <scope id="6749750758532575716" at="34,25,46,46" />
       <scope id="6749750758532575712" at="34,0,48,0" />
-      <scope id="4190535063041855328" at="31,37,50,0">
+      <scope id="4190535063041855328" at="31,37,49,39">
         <var name="r" id="6749750758532532470" />
       </scope>
-      <scope id="4190535063041855328" at="31,0,52,0">
+      <scope id="4190535063041855328" at="31,0,51,0">
         <var name="project" id="4190535063041855328" />
       </scope>
+      <unit id="7446079616378503990" at="56,21,61,5" name="MPSBrowserPlugin.plugin.BrowserTool_Tool$2" />
       <unit id="6749750758532575710" at="33,21,48,5" name="MPSBrowserPlugin.plugin.BrowserTool_Tool$1" />
-      <unit id="4190535063041855328" at="22,0,60,0" name="MPSBrowserPlugin.plugin.BrowserTool_Tool" />
+      <unit id="4190535063041855328" at="22,0,68,0" name="MPSBrowserPlugin.plugin.BrowserTool_Tool" />
+    </file>
+    <file name="MPSBrowserPlugin_ProjectPlugin.java">
+      <node id="4190535063041855328" at="16,76,17,75" concept="1" />
     </file>
   </root>
   <root nodeRef="r:fd652edb-4d2c-4ed6-a2a0-5da9b575e791(MPSBrowserPlugin.plugin)/6615527310055976146">
     <file name="MPSBrowserPlugin_ProjectPlugin.java">
       <node id="6615527310055976146" at="15,56,16,76" concept="6" />
-      <node id="6615527310055976146" at="16,76,17,75" concept="1" />
       <node id="6615527310055976146" at="17,75,18,17" concept="7" />
       <node id="6615527310055976146" at="13,0,15,0" concept="0" trace="MPSBrowserPlugin_ProjectPlugin#()V" />
       <node id="6615527310055976146" at="15,0,20,0" concept="5" trace="initAllTools1#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />

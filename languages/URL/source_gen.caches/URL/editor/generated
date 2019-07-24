@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-84ysjnvduji7iuh988debn09wa4gq5b" />
+<product version="3" modelHash="7sz5udck49b9xsyks17c20iv2sylds2">
+  <files names="BWBNummer_Editor.java:BWBNummer_EditorBuilder_a.java:CallBrowser.java:Context_Editor.java:Context_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:JCTypeC_Editor.java:JCTypeC_EditorBuilder_a.java:JCTypeV_Editor.java:JCTypeV_EditorBuilder_a.java:URL_Editor.java:URL_EditorBuilder_a.java:URL_button_Editor.java:URL_button_EditorBuilder_a.java" />
+</product>
 

@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dknbvl59ouly0kga0pp412nfox6j9jl" />
+<product version="3" modelHash="-5edckbokf5ezcgewr3qwrj08fgqo8c0">
+  <files names="BrowserTool_Tool.java:MPSBrowserPlugin.java:MPSBrowserPlugin_ProjectPlugin.java:SwingMPSFXWebView.java:startup.properties" />
+</product>
 

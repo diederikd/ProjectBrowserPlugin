@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="MPSBrowserPlugin.plugin.BrowserTool_Tool" file="BrowserTool_Tool.java">
+  <dependency className="MPSBrowserPlugin.plugin.BrowserTool_Tool">
     <classNode dependClassName="JavaFXBrowser.SwingFXWebView" />
     <classNode dependClassName="MPSBrowserPlugin.plugin.MPSBrowserPlugin" />
     <classNode dependClassName="com.intellij.openapi.project.Project" />
@@ -21,12 +21,12 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.plugins.tool.GeneratedTool" />
   </dependency>
-  <dependency className="MPSBrowserPlugin.plugin.MPSBrowserPlugin" file="MPSBrowserPlugin.java">
+  <dependency className="MPSBrowserPlugin.plugin.MPSBrowserPlugin">
     <classNode dependClassName="MPSBrowserPlugin.plugin.BrowserTool_Tool" />
     <classNode dependClassName="com.intellij.openapi.project.Project" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
-  <dependency className="MPSBrowserPlugin.plugin.MPSBrowserPlugin_ProjectPlugin" file="MPSBrowserPlugin_ProjectPlugin.java">
+  <dependency className="MPSBrowserPlugin.plugin.MPSBrowserPlugin_ProjectPlugin">
     <classNode dependClassName="MPSBrowserPlugin.plugin.BrowserTool_Tool" />
     <classNode dependClassName="com.intellij.openapi.project.Project" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -35,7 +35,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode extendsClassName="jetbrains.mps.plugins.projectplugins.BaseProjectPlugin" />
   </dependency>
-  <dependency className="MPSBrowserPlugin.plugin.SwingMPSFXWebView" file="SwingMPSFXWebView.java">
+  <dependency className="MPSBrowserPlugin.plugin.SwingMPSFXWebView">
     <classNode dependClassName="java.awt.BorderLayout" />
     <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Integer" />

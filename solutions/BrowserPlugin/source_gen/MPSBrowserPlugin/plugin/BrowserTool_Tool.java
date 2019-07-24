@@ -26,7 +26,7 @@ public class BrowserTool_Tool extends GeneratedTool {
   private SwingFXWebView fxWebView;
   private MPSBrowserPlugin browserPlugin;
   public BrowserTool_Tool(Project project) {
-    super(project, "Wetten.nl", MapSequence.<String, KeyStroke>fromMapAndKeysArray(new HashMap<String, KeyStroke>(), "Mac OS X").withValues(KeyStroke.getKeyStroke("alt shift 2")), ICON, ToolWindowAnchor.BOTTOM, false);
+    super(project, "Browser", MapSequence.<String, KeyStroke>fromMapAndKeysArray(new HashMap<String, KeyStroke>(), "Mac OS X").withValues(KeyStroke.getKeyStroke("alt shift 2")), ICON, ToolWindowAnchor.BOTTOM, false);
   }
   public void init(Project project) {
     super.init(project);
@@ -47,11 +47,19 @@ public class BrowserTool_Tool extends GeneratedTool {
       }
     };
     ThreadUtils.runInUIThreadNoWait(r);
-
   }
-  public void load(SNode url) {
-    BrowserTool_Tool.this.fxWebView.setCurrentURL(SPropertyOperations.getString(url, MetaAdapterFactory.getProperty(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL, 0x767b1c753675469L, "url")));
-    BrowserTool_Tool.this.fxWebView.load();
+  public void dispose() {
+    BrowserTool_Tool.this.projectvar.dispose();
+    super.dispose();
+  }
+  public void load(final SNode url) {
+    Runnable r = new Runnable() {
+      public void run() {
+        BrowserTool_Tool.this.fxWebView.setCurrentURL(SPropertyOperations.getString(url, MetaAdapterFactory.getProperty(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x3e37d3fcba83a53dL, 0x767b1c753675469L, "url")));
+        BrowserTool_Tool.this.fxWebView.load();
+      }
+    };
+    ThreadUtils.runInUIThreadNoWait(r);
   }
   public JComponent getComponent() {
     return BrowserTool_Tool.this.jp;

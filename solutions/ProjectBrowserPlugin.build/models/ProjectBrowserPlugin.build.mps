@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -87,10 +87,12 @@
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
+        <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
@@ -144,7 +146,7 @@
                 <node concept="2Ry0Ak" id="2uMscXytE70" role="2Ry0An">
                   <property role="2Ry0Am" value="Applications" />
                   <node concept="2Ry0Ak" id="2uMscXytE7Z" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 2018.1.app" />
+                    <property role="2Ry0Am" value="MPS 2019.1.app" />
                     <node concept="2Ry0Ak" id="2uMscXytIUr" role="2Ry0An">
                       <property role="2Ry0Am" value="Contents" />
                     </node>
@@ -196,6 +198,7 @@
               </node>
             </node>
           </node>
+          <node concept="pUk6x" id="6hKGWxu0bDp" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -208,7 +211,7 @@
       </node>
       <node concept="3_J27D" id="6itJwArjGUo" role="m$_w8">
         <node concept="3Mxwew" id="6itJwArjGUp" role="3MwsjC">
-          <property role="3MwjfP" value="2018.1" />
+          <property role="3MwjfP" value="2019.1.5" />
         </node>
       </node>
       <node concept="m$f5U" id="6itJwArjGUq" role="m$_yh">

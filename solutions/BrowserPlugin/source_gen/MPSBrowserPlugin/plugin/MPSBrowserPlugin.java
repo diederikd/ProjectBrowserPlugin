@@ -6,13 +6,11 @@ import com.intellij.openapi.project.Project;
 import org.jetbrains.mps.openapi.model.SNode;
 
 public class MPSBrowserPlugin {
-  private static Project project;
   private static BrowserTool_Tool browsertool;
 
   public MPSBrowserPlugin() {
   }
   public MPSBrowserPlugin(Project mpsProject, BrowserTool_Tool tool) {
-    project = mpsProject;
     browsertool = tool;
   }
   public void load(SNode url) {

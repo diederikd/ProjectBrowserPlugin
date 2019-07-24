@@ -8,8 +8,10 @@ import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.adapter.ids.SConceptId;
+import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBWBNummer = createDescriptorForBWBNummer();
@@ -22,10 +24,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptJCValue = createDescriptorForJCValue();
   /*package*/ final ConceptDescriptor myConceptLink = createDescriptorForLink();
   /*package*/ final ConceptDescriptor myConceptURL = createDescriptorForURL();
-  private final LanguageConceptSwitch myConceptIndex;
+  private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
-    myConceptIndex = new LanguageConceptSwitch();
+    myIndexSwitch = new LanguageConceptSwitch();
+  }
+
+
+  @Override
+  public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
+    deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
   }
 
   @Override
@@ -36,7 +44,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
-    switch (myConceptIndex.index(id)) {
+    switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.BWBNummer:
         return myConceptBWBNummer;
       case LanguageConceptSwitch.Context:
@@ -62,21 +70,28 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     }
   }
 
+  @Override
+  public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
+    return Arrays.asList();
+  }
+
   /*package*/ int internalIndex(SAbstractConcept c) {
-    return myConceptIndex.index(c);
+    return myIndexSwitch.index(c);
   }
 
   private static ConceptDescriptor createDescriptorForBWBNummer() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "BWBNummer", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c753675565L);
     b.class_(false, false, false);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582373");
-    b.prop("nummer", 0x767b1c753675566L, "533590550522582374");
+    b.version(2);
+    b.property("nummer", 0x767b1c753675566L).type(PrimitiveTypeId.STRING).origin("533590550522582374").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForContext() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "Context", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c753675588L);
     b.class_(false, false, true);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582408");
+    b.version(2);
     b.aggregate("links", 0x767b1c753675593L).target(0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367546cL).optional(true).ordered(true).multiple(true).origin("533590550522582419").done();
     b.alias("voor test doeleinden");
     return b.create();
@@ -85,18 +100,21 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "JCKey", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c753675586L);
     b.class_(false, false, false);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582406");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForJCKeyValuePaar() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "JCKeyValuePaar", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c753675585L);
     b.class_(false, false, false);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582405");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForJCType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "JCType", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367550cL);
     b.class_(false, true, false);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582284");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForJCTypeC() {
@@ -104,6 +122,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.super_("URL.structure.JCType", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367550cL);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582285");
+    b.version(2);
     b.alias("een verwijzing naar een enkele consolidatie");
     return b.create();
   }
@@ -112,6 +131,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.super_("URL.structure.JCType", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367550cL);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582300");
+    b.version(2);
     b.alias("een verwijzing naar een verzameling van consolidaties");
     return b.create();
   }
@@ -119,12 +139,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "JCValue", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c753675587L);
     b.class_(false, false, false);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582407");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLink() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("URL", "Link", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367546cL);
     b.class_(false, true, false);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/533590550522582124");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForURL() {
@@ -132,7 +154,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.super_("URL.structure.Link", 0xc6a53bd096274db5L, 0xb62adbc3d020d641L, 0x767b1c75367546cL);
     b.origin("r:febb3af1-bc6f-47d4-96d1-d50d7d238cfb(URL.structure)/4483285036485027133");
-    b.prop("url", 0x767b1c753675469L, "533590550522582121");
+    b.version(2);
+    b.property("url", 0x767b1c753675469L).type(PrimitiveTypeId.STRING).origin("533590550522582121").done();
     return b.create();
   }
 }
