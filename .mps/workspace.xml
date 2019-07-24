@@ -7,34 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0832d75f-2c51-4b39-8276-6725b1bbcb75" name="Default" comment="Upgrade 2019.1.5">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/behavior/BehaviorAspectDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/BWBNummer_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/BWBNummer_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/BWBNummer_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/BWBNummer_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/CallBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/CallBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/Context_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/Context_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/Context_EditorBuilder_a$linksListHandler_d0e2am_a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/Context_EditorBuilder_a$linksListHandler_d0e2am_a0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/Context_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/Context_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeC_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeC_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeC_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeC_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeV_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeV_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeV_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/JCTypeV_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/URL_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/URL_Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/URL_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/editor/URL_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/URL/classes_gen/URL/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/URL/classes_gen/URL/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/BrowserPlugin/classes_gen/BrowserPlugin/plugin/BrowserPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/BrowserPlugin/classes_gen/BrowserPlugin/plugin/BrowserPlugin_ProjectPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/BrowserPlugin/classes_gen/BrowserPlugin/plugin/BrowserTool_Tool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/BrowserPlugin/classes_gen/BrowserPlugin/plugin/BrowserTool_Tool$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/BrowserPlugin/classes_gen/BrowserPlugin/plugin/BrowserTool_Tool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/BrowserPlugin/classes_gen/BrowserPlugin/plugin/startup.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/BrowserPlugin/classes_gen/BrowserPlugin/plugin/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/ProjectBrowserPlugin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/ProjectBrowserPlugin.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/artifacts/ProjectBrowserPlugin/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-BrowserPlugin-models/MPSBrowserPlugin/plugin.mpb" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-BrowserPlugin-models/MPSBrowserPlugin/plugin.mpb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-ProjectBrowserPlugin.build-models/ProjectBrowserPlugin.build.mpb" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/customProcessors/copyModels/solutions-ProjectBrowserPlugin.build-models/ProjectBrowserPlugin.build.mpb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser-src.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser-src.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/JavaFxBrowser.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin-src.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin-src.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/MPSBrowserPlugin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build-src.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build-src.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/ProjectBrowserPlugin.build.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-generator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-generator.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-src.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL-src.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/default/ProjectBrowserPlugin.zip/ProjectBrowserPlugin/languages/ProjectBrowserPlugin/URL.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java.modules.cycle.1/URL/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/ProjectBrowserPlugin/java/out/URL/URL/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
     </list>
     <ignored path="ProjectBrowserPlugin.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -61,7 +49,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="83327da3-c995-4225-98cd-d302c533e9bf/r:2d3e2c16-1c37-4420-9d3d-af671d024cc5(TempModule83327da3-c995-4225-98cd-d302c533e9bf/TempModel_204495058903145)">
+            <model ref="57b1e628-e5f5-45d6-a61a-b1af0ebab599/r:a3496a55-3302-4e27-9228-4fa1541083b1(TempModule57b1e628-e5f5-45d6-a61a-b1af0ebab599/TempModel_204968279117061)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -81,11 +69,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6hKGWxu0bEi">
-                <node concept="3balQm" id="6hKGWxu0bEj" role="aymYE" />
-                <node concept="2Clz$F" id="6hKGWxu0bEk" role="aymYO" />
-                <node concept="2_V_lH" id="6hKGWxu0bEl" role="1PhJh3">
-                  <ref role="2_V_lI" node="6hKGWxu0bEk" resolve="CommandHolder" />
+              <node concept="aymSD" id="6hKGWxu0J3S">
+                <node concept="3balQm" id="6hKGWxu0J3T" role="aymYE" />
+                <node concept="2Clz$F" id="6hKGWxu0J3U" role="aymYO" />
+                <node concept="2_V_lH" id="6hKGWxu0J3V" role="1PhJh3">
+                  <ref role="2_V_lI" node="6hKGWxu0J3U" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -111,53 +99,7 @@
     </search_options>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mps://node://Sandbox/Sandbox.Test/voor test doeleinden">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="191" />
-                    <property name="caretXRelative" value="8" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_jpd4ji_b0">
-                      <node node_reference="r:f7c2697a-9c26-4fcd-b319-9ce1f032c455(Sandbox.Test)/4243656610623549663" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:f7c2697a-9c26-4fcd-b319-9ce1f032c455(Sandbox.Test)/4243656610623549663" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-                </enabledHints>
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -203,7 +145,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
+    <option name="x" value="119" />
     <option name="y" value="23" />
     <option name="width" value="1467" />
     <option name="height" value="959" />
@@ -457,16 +399,51 @@
     <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="FileSystem" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build) in IdeaFile[file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,6 +456,22 @@
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build) in IdeaFile[file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7250159923605982836" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -503,6 +496,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -616,14 +610,13 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1467" height="959" extended-state="0" />
-    <editor active="true" />
+    <frame x="119" y="258" width="1467" height="959" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5179199" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.52565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46777004" weight="0.32634032" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46777004" weight="0.32520324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -642,8 +635,8 @@
       <window_info anchor="bottom" id="Trace Explorer" order="18" />
       <window_info anchor="bottom" id="Chart" order="19" />
       <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4468641" weight="0.29616725" />
-      <window_info anchor="bottom" id="Documentation" order="21" sideWeight="0.4991289" weight="0.31358886" />
-      <window_info anchor="bottom" id="Version Control" order="22" sideWeight="0.43528694" visible="true" weight="0.5156794" />
+      <window_info anchor="bottom" id="Documentation" order="21" sideWeight="0.4991289" weight="0.31475028" />
+      <window_info anchor="bottom" id="Version Control" order="22" sideWeight="0.43528694" weight="0.514518" />
       <window_info anchor="bottom" id="Visualiseer" order="23" />
       <window_info anchor="bottom" id="RefactoringView" order="24" sideWeight="0.49676898" weight="0.32874617" />
       <window_info anchor="bottom" id="Node Explorer" order="25" weight="0.3295838" />
@@ -1411,9 +1404,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://Sandbox/Sandbox.Test/voor test doeleinden">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
@@ -1442,13 +1442,6 @@
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
