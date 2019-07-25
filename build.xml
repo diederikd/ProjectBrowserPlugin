@@ -4,8 +4,6 @@
   <property name="build.tmp" location="${build.dir}/tmp/ProjectBrowserPlugin" />
   <property name="build.layout" location="${build.dir}/artifacts/ProjectBrowserPlugin" />
   <property name="mps_home" location="${basedir}/../../../../Applications/MPS 2019.1.app/Contents" />
-  <property name="imagespath" location="" />
-  <property name="mbeddr.github.core.home" location="" />
   <property name="jar.home" location="${basedir}/solutions/JavaFxBrowser" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -372,8 +370,6 @@
         <arg value="-Xmx512m" />
       </jvmargs>
       <macro name="mps_home" path="${mps_home}" />
-      <macro name="imagespath" path="${imagespath}" />
-      <macro name="mbeddr.github.core.home" path="${mbeddr.github.core.home}" />
       <macro name="jar.home" path="${jar.home}" />
     </generate>
   </target>

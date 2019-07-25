@@ -6,8 +6,8 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0832d75f-2c51-4b39-8276-6725b1bbcb75" name="Default" comment="Add ant installation">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="0832d75f-2c51-4b39-8276-6725b1bbcb75" name="Default" comment="Travis fix">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
     </list>
     <ignored path="ProjectBrowserPlugin.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -34,7 +34,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="d6e88145-b947-42ea-b47e-e37e0288b868/r:99ee5d22-719c-4a9d-b6b7-fd90cd374c5f(TempModuled6e88145-b947-42ea-b47e-e37e0288b868/TempModel_205197232853834)">
+            <model ref="1b2e5765-d1af-4dc7-90b0-2c7d4decc37d/r:23c0dfcd-fd54-406e-928b-bd0152e6b2b8(TempModule1b2e5765-d1af-4dc7-90b0-2c7d4decc37d/TempModel_211938255673446)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -54,11 +54,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4aQ2XdGp23K">
-                <node concept="3balQm" id="4aQ2XdGp23L" role="aymYE" />
-                <node concept="2Clz$F" id="4aQ2XdGp23M" role="aymYO" />
-                <node concept="2_V_lH" id="4aQ2XdGp23N" role="1PhJh3">
-                  <ref role="2_V_lI" node="4aQ2XdGp23M" resolve="CommandHolder" />
+              <node concept="aymSD" id="3gN72xdMh8x">
+                <node concept="3balQm" id="3gN72xdMh8y" role="aymYE" />
+                <node concept="2Clz$F" id="3gN72xdMh8z" role="aymYO" />
+                <node concept="2_V_lH" id="3gN72xdMh8$" role="1PhJh3">
+                  <ref role="2_V_lI" node="3gN72xdMh8z" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -84,12 +84,12 @@
     </search_options>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -140,7 +140,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
+    <option name="x" value="136" />
     <option name="y" value="23" />
     <option name="width" value="1467" />
     <option name="height" value="959" />
@@ -399,64 +399,6 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectBrowserPlugin" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectBrowserPlugin" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build) in IdeaFile[file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -475,6 +417,9 @@
           </expand>
           <select />
         </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane />
       </pane>
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
@@ -589,10 +534,9 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="23" width="1467" height="959" extended-state="0" />
-    <editor active="true" />
+    <frame x="136" y="56" width="1467" height="959" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.452565" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4595924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -615,8 +559,8 @@
       <window_info anchor="bottom" id="Trace Explorer" order="18" />
       <window_info anchor="bottom" id="Chart" order="19" />
       <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4468641" weight="0.29616725" />
-      <window_info anchor="bottom" id="Documentation" order="21" sideWeight="0.4991289" weight="0.31591174" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="22" sideWeight="0.43528694" visible="true" weight="0.514518" />
+      <window_info anchor="bottom" id="Documentation" order="21" sideWeight="0.4991289" weight="0.31707317" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="22" sideWeight="0.43528694" visible="true" weight="0.34262484" />
       <window_info anchor="bottom" id="Visualiseer" order="23" />
       <window_info anchor="bottom" id="RefactoringView" order="24" sideWeight="0.49676898" weight="0.32874617" />
       <window_info anchor="bottom" id="Node Explorer" order="25" weight="0.3295838" />
@@ -772,7 +716,8 @@
     <MESSAGE value="JavaFx problem with Inspector fixed" />
     <MESSAGE value="Upgrade 2019.1.5" />
     <MESSAGE value="Add ant installation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ant installation" />
+    <MESSAGE value="Travis fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Travis fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build0/ProjectBrowserPlugin" />
@@ -1421,8 +1366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -158,12 +158,6 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="6itJwArjGTU" role="1l3spd">
-      <property role="TrG5h" value="imagespath" />
-    </node>
-    <node concept="398rNT" id="6itJwArjGTV" role="1l3spd">
-      <property role="TrG5h" value="mbeddr.github.core.home" />
-    </node>
     <node concept="398rNT" id="7KfSk53Dbo0" role="1l3spd">
       <property role="TrG5h" value="jar.home" />
       <node concept="55IIr" id="2Gja7lFVGE1" role="398pKh">
