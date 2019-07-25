@@ -5,7 +5,6 @@ before_install:
 - wget https://download-cf.jetbrains.com/mps/2019.1/MPS-2019.1.zip
 - wget https://github.com/JetBrains/MPS-extensions/releases/download/nightly-2019.1.1037.4955bbc/de.itemis.mps.extensions-2019.1.1037.4955bbc.zip
 install:
-- ant deps
 - unzip MPS-2019.1.zip
 - unzip de.itemis.mps.extensions-2019.1.1037.4955bbc.zip
 script:
