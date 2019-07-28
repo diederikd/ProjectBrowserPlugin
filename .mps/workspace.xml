@@ -8,6 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0832d75f-2c51-4b39-8276-6725b1bbcb75" name="Default" comment="Travis fix">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/ProjectBrowserPlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/ProjectBrowserPlugin.build/classes_gen/ProjectBrowserPlugin/build/trace.info" afterDir="false" />
     </list>
     <ignored path="ProjectBrowserPlugin.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -34,7 +37,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="1b2e5765-d1af-4dc7-90b0-2c7d4decc37d/r:23c0dfcd-fd54-406e-928b-bd0152e6b2b8(TempModule1b2e5765-d1af-4dc7-90b0-2c7d4decc37d/TempModel_211938255673446)">
+            <model ref="01202639-0a60-4d84-aac2-f94e26ee90b4/r:c95183ee-bcc2-45be-891d-9a1ee77d0be1(TempModule01202639-0a60-4d84-aac2-f94e26ee90b4/TempModel_321977059265379)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -54,11 +57,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3gN72xdMh8x">
-                <node concept="3balQm" id="3gN72xdMh8y" role="aymYE" />
-                <node concept="2Clz$F" id="3gN72xdMh8z" role="aymYO" />
-                <node concept="2_V_lH" id="3gN72xdMh8$" role="1PhJh3">
-                  <ref role="2_V_lI" node="3gN72xdMh8z" resolve="CommandHolder" />
+              <node concept="aymSD" id="2uvT7Bi6XCB">
+                <node concept="3balQm" id="2uvT7Bi6XCC" role="aymYE" />
+                <node concept="2Clz$F" id="2uvT7Bi6XCD" role="aymYO" />
+                <node concept="2_V_lH" id="2uvT7Bi6XCE" role="1PhJh3">
+                  <ref role="2_V_lI" node="2uvT7Bi6XCD" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -84,12 +87,69 @@
     </search_options>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="143">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="575" />
+                    <property name="caretXRelative" value="64" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_head">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/2860472749346188955" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_ucemm3_e0">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982861" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_ju7sd7_e0">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982855" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_ju7sd7_e0">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982849" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_pilq2t_c0">
+                      <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/7250159923605982868" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/2860472749346188955" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -325,6 +385,11 @@
           <PluginState />
         </value>
       </option>
+      <option name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="de.q60.mps.shadowmodels.runtime.plugin.Runtime_ProjectPlugin">
         <value>
           <PluginState />
@@ -398,7 +463,80 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build) in IdeaFile[file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f28fc714-fbe7-4fd3-a95a-30c5ab54bf34" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectBrowserPlugin" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build) in IdeaFile[file:///Users/diederikdulfer/MPSProjects/ProjectBrowserPlugin/solutions/ProjectBrowserPlugin.build/models/ProjectBrowserPlugin.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7250159923605982836" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -414,11 +552,21 @@
               <item name="" type="" />
               <item name="" type="" />
             </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
+      <pane id="Favorites" />
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
@@ -534,10 +682,12 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="56" width="1467" height="959" extended-state="0" />
+    <frame x="136" y="23" width="1467" height="959" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4595924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2902319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Shadow Models" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46777004" weight="0.32520324" />
@@ -559,8 +709,8 @@
       <window_info anchor="bottom" id="Trace Explorer" order="18" />
       <window_info anchor="bottom" id="Chart" order="19" />
       <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4468641" weight="0.29616725" />
-      <window_info anchor="bottom" id="Documentation" order="21" sideWeight="0.4991289" weight="0.31707317" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="22" sideWeight="0.43528694" visible="true" weight="0.34262484" />
+      <window_info anchor="bottom" id="Documentation" order="21" sideWeight="0.4991289" visible="true" weight="0.31939605" />
+      <window_info anchor="bottom" id="Version Control" order="22" sideWeight="0.43528694" weight="0.34140715" />
       <window_info anchor="bottom" id="Visualiseer" order="23" />
       <window_info anchor="bottom" id="RefactoringView" order="24" sideWeight="0.49676898" weight="0.32874617" />
       <window_info anchor="bottom" id="Node Explorer" order="25" weight="0.3295838" />
@@ -1275,15 +1425,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin">
+    <entry file="mps://node://Sandbox/Sandbox.Test/voor test doeleinden">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="108">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="519" />
+                <property name="caretX" value="191" />
                 <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_jpd4ji_b0">
+                  <node node_reference="r:f7c2697a-9c26-4fcd-b319-9ce1f032c455(Sandbox.Test)/4243656610623549663" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f7c2697a-9c26-4fcd-b319-9ce1f032c455(Sandbox.Test)/4243656610623549663" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="mps://node://ProjectBrowserPlugin.build/ProjectBrowserPlugin.build/ProjectBrowserPlugin">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="143">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="575" />
+                <property name="caretXRelative" value="64" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_head">
                   <node node_reference="r:f448efb6-271a-4b32-b780-14004cb45bb4(ProjectBrowserPlugin.build)/2860472749346188955" />
@@ -1330,44 +1517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Sandbox/Sandbox.Test/voor test doeleinden">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="191" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_jpd4ji_b0">
-                  <node node_reference="r:f7c2697a-9c26-4fcd-b319-9ce1f032c455(Sandbox.Test)/4243656610623549663" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f7c2697a-9c26-4fcd-b319-9ce1f032c455(Sandbox.Test)/4243656610623549663" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
         </state>
       </provider>
     </entry>
