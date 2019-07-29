@@ -11,7 +11,6 @@ install:
 - unzip artifacts.zip
 script:
 - ant -Dmps_home=./MPS\ 2019.1 -Dmbeddr_home=./com.mbeddr.platform -Dextensions_home=./de.itemis.mps.extensions clean generate assemble
-
 before_deploy:
       # Set up git user name and tag this commit
       - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
